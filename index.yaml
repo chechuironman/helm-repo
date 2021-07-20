@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-20T18:27:41.54413+02:00"
+    created: "2021-07-20T23:33:57.468874+02:00"
     description: A Helm chart for Kubernetes
     digest: a026790c907b90e2ed51accbdff81758c496adaacb0864d507fa43ec7cd13cbb
     name: helm-chart-test
@@ -13,8 +13,19 @@ entries:
     version: 0.1.0
   ocs-operator:
   - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2021-07-20T23:33:57.470689+02:00"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: e179848a68a4995909b89ac17b2773ee90bf1c12083777e19fec7f1e3532105d
+    name: ocs-operator
+    type: application
+    urls:
+    - https://chechuironman.github.io/helm-repo/ocs-operator-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-07-20T18:27:41.544469+02:00"
+    created: "2021-07-20T23:33:57.470151+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 1062b9670519a7cfdbd5ba00f79f821d206408c795f3922e41a3dae8275ec82e
@@ -23,4 +34,4 @@ entries:
     urls:
     - https://chechuironman.github.io/helm-repo/ocs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-20T18:27:41.542909+02:00"
+generated: "2021-07-20T23:33:57.465457+02:00"
