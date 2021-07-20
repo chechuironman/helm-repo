@@ -1,5 +1,3 @@
-{{- if .Values.ocs.installOCS }}
----
 apiVersion: ocs.ibm.io/v1
 kind: OcsCluster
 metadata:
@@ -17,4 +15,3 @@ spec:
     - {{ .Values.ocs.worker_ip_1 }} 
     - {{ .Values.ocs.worker_ip_2 }}
     - {{ .Values.ocs.worker_ip_3 }}
-{{- end }}
