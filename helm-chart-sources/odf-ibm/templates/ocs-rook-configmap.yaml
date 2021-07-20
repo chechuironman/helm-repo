@@ -10,7 +10,7 @@ data:
   CSI_LOG_LEVEL: "5"
   CSI_PLUGIN_TOLERATIONS: |
     - effect: NoExecute
-      key: foudational-services
+      key: foundational-services
       operator: Equal
       value: reserved
     - effect: NoSchedule
