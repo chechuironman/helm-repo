@@ -1,0 +1,16 @@
+# Default values for refarch-ocp4-gitops.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+ocs:
+  # installOCS: true
+  # channel: stable-4.6
+  # version: 4.6.3
+  sizeOSD: 512 Gi
+  # storageClass: thin
+  worker_ip_1:
+  worker_ip_2:
+  worker_ip_3:
+
+
+

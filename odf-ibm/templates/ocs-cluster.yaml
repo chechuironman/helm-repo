@@ -1,0 +1,20 @@
+{{- if .Values.ocs.installOCS }}
+---
+apiVersion: ocs.ibm.io/v1
+kind: OcsCluster
+metadata:
+  annotations:    
+  name: ocscluster-vpc
+spec:
+  monStorageClassName:  ocs-initial
+  monSize: 20Gi
+  osdStorageClassName: ocs-initial
+  osdSize: {{ .Values.ocs.sizeOSD }} 
+  numOfOsd: 3
+  billingType: hourly
+  ocsUpgrade: false
+  workerNodes: 
+    - {{ .Values.ocs.worker_ip_1 }} 
+    - {{ .Values.ocs.worker_ip_2 }}
+    - {{ .Values.ocs.worker_ip_3 }}
+{{- end }}
