@@ -4,9 +4,9 @@ metadata:
   annotations:    
   name: ocscluster-vpc
 spec:
-  monStorageClassName:  ocs-initial
+  monStorageClassName:  {{ .Values.ocs.storageClass }}
   monSize: 20Gi
-  osdStorageClassName: ocs-initial
+  osdStorageClassName: {{ .Values.ocs.storageClass }}
   osdSize: {{ .Values.ocs.sizeOSD }} 
   numOfOsd: 3
   billingType: hourly
