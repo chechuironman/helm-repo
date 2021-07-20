@@ -11,6 +11,7 @@ ocs:
   worker_ip_1:
   worker_ip_2:
   worker_ip_3:
+  billingType:
 
 
 

@@ -9,7 +9,7 @@ spec:
   osdStorageClassName: {{ .Values.ocs.storageClass }}
   osdSize: {{ .Values.ocs.sizeOSD }} 
   numOfOsd: 3
-  billingType: hourly
+  billingType: {{ .Values.ocs.billingType }} 
   ocsUpgrade: false
   workerNodes: 
     - {{ .Values.ocs.worker_ip_1 }} 
