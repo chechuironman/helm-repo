@@ -3,15 +3,8 @@
 # Declare variables to be passed into your templates.
 
 cp4data:
-  # installOCS: true
-  # channel: stable-4.6
-  # version: 4.6.3
-  sizeOSD: 512 Gi
-  storageClass: ocs-initial
-  worker_ip_1:
-  worker_ip_2:
-  worker_ip_3:
-  billingType:
+  # installcp4data: true
+
 
 
 
