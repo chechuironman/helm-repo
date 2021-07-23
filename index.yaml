@@ -1,9 +1,32 @@
 apiVersion: v1
 entries:
+  cp4d-wkc-instance:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-07-23T12:09:11.225398+02:00"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: f43057df67b2bf4761e32d5917ea7c4a534fea732097046dc846a2fecb653733
+    name: cp4d-wkc-instance
+    type: application
+    urls:
+    - https://chechuironman.github.io/helm-repo/cp4d-wkc-instance-0.1.0.tgz
+    version: 0.1.0
   cp4data-operator:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2021-07-23T12:09:11.2272+02:00"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: f14f6f87c02069ecb81eaef153c293a487f9cea35392f092ab0b724629ce855e
+    name: cp4data-operator
+    type: application
+    urls:
+    - https://chechuironman.github.io/helm-repo/cp4data-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
-    created: "2021-07-22T21:59:50.927913+02:00"
+    created: "2021-07-23T12:09:11.226892+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: e3f3ee6e4bb163b8d20b32a3a06fd7ac8009baef5af60303660e504e562253f5
@@ -14,7 +37,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-07-22T21:59:50.927616+02:00"
+    created: "2021-07-23T12:09:11.226043+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 7ddeb3e53e041ad086b189742c7858a669db44cf272b094e700f15af5e41daba
@@ -26,7 +49,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-22T21:59:50.928331+02:00"
+    created: "2021-07-23T12:09:11.227651+02:00"
     description: A Helm chart for Kubernetes
     digest: a026790c907b90e2ed51accbdff81758c496adaacb0864d507fa43ec7cd13cbb
     name: helm-chart-test
@@ -37,7 +60,7 @@ entries:
   ocs-operator:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-07-22T21:59:50.929205+02:00"
+    created: "2021-07-23T12:09:11.228591+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: e179848a68a4995909b89ac17b2773ee90bf1c12083777e19fec7f1e3532105d
@@ -48,7 +71,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-07-22T21:59:50.928927+02:00"
+    created: "2021-07-23T12:09:11.228292+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 1062b9670519a7cfdbd5ba00f79f821d206408c795f3922e41a3dae8275ec82e
@@ -57,4 +80,4 @@ entries:
     urls:
     - https://chechuironman.github.io/helm-repo/ocs-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-22T21:59:50.923077+02:00"
+generated: "2021-07-23T12:09:11.224878+02:00"

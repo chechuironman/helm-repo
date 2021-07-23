@@ -1,6 +1,6 @@
 apiVersion: v2
-name: cp4data-operator
+name: cp4data-instance
 description: A Helm chart for deploying infrastrucure reference architecture to OpenShift 4.x clusters
 type: application
-version: 0.1.1
-appVersion: 0.1.1
+version: 0.1.0
+appVersion: 0.1.0

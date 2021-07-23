@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cp4d-wkc-instance
+description: A Helm chart for deploying infrastrucure reference architecture to OpenShift 4.x clusters
+type: application
+version: 0.1.0
+appVersion: 0.1.0

@@ -1,0 +1,12 @@
+apiVersion: cpd.ibm.com/v1
+kind: Ibmcpd
+metadata:
+  name: ibmcpd-cr                                    
+  namespace: cpd-instance                             
+spec:
+  license:
+    accept: true
+    license: Enterprise                 
+  storageClass: {{ .Values.cp4data.storageclass }}                      
+  zenCoreMetadbStorageClass: {{ .Values.cp4data.storageclass }}       
+  version: "4.0.1"

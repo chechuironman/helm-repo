@@ -1,0 +1,9 @@
+apiVersion: operator.ibm.com/v1
+kind: NamespaceScope
+metadata:
+  name: cpd-operators
+  namespace: cpd-operators         
+spec:
+  namespaceMembers:
+  - cpd-operators                 
+  - cpd-instance                  
