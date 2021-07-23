@@ -7,6 +7,5 @@ spec:
   license:
     accept: true
     license: Enterprise                 
-  storageClass: {{ .Values.cp4data.storageclass }}                      
-  zenCoreMetadbStorageClass: {{ .Values.cp4data.storageclass }}       
+  storageClass: {{ .Values.cp4data.storageclass }}                    
   version: "4.0.1"
