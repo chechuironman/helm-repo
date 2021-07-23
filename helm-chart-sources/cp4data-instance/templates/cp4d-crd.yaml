@@ -4,6 +4,14 @@ metadata:
   name: ibmcpd-cr                                    
   namespace: cpd-instance                             
 spec:
+  nodeSelector:
+    node-role.kubernetes.io/cloud-paks: "true"
+  tolerations:
+    - effect: NoSchedule
+      key: node-role.kubernetes.io/cloud-paks
+      value: 'true'
+      operator: Equal
+  defaultRoute: true
   license:
     accept: true
     license: Enterprise                 
