@@ -7,17 +7,4 @@ metadata:
     helm.sh/hook-weight: "110"
 apiVersion: v1
 data:
-  CSI_LOG_LEVEL: "5"
-  CSI_PLUGIN_TOLERATIONS: |
-    - effect: NoExecute
-      key: foundational-services
-      operator: Equal
-      value: reserved
-    - effect: NoSchedule
-      key: node.ocs.openshift.io/storage
-      operator: Exists
-  CSI_PROVISIONER_TOLERATIONS: |2-
-    - key: node.ocs.openshift.io/storage
-      operator: Equal
-      value: "true"
-      effect: NoSchedule
+  {{ .Values.configmap }}
