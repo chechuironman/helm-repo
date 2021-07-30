@@ -12,18 +12,26 @@ data:
     - effect: NoSchedule
       key: node-role.kubernetes.io/cloud-paks
       operator: Equal
-      value: true
+      value: "true"
     - effect: NoExecute
       key: node-role.kubernetes.io/foundational-services
       operator: Equal
-      value: true
+      value: "true"
     - effect: NoSchedule
       key: node.ocs.openshift.io/storage
       operator: Equal
-      value: true
+      value: "true"
   CSI_PROVISIONER_TOLERATIONS: |2-
-    - key: node.ocs.openshift.io/storage
+    - effect: NoSchedule
+      key: node-role.kubernetes.io/cloud-paks
       operator: Equal
       value: "true"
-      effect: NoSchedule
+    - effect: NoExecute
+      key: node-role.kubernetes.io/foundational-services
+      operator: Equal
+      value: "true"
+    - effect: NoSchedule
+      key: node.ocs.openshift.io/storage
+      operator: Equal
+      value: "true"
   
