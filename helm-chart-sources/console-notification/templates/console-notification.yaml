@@ -1,0 +1,8 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: banner-env
+spec:
+  backgroundColor: blue
+  location: BannerTop
+  text: {{ .Values.consolenotification.text }} 
