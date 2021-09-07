@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: router-default-pro
+  namespace: openshift-ingress
+  annotations:
+    service.kubernetes.io/ibm-load-balancer-cloud-provider-ip-type: "private"
+    service.kubernetes.io/ibm-load-balancer-cloud-provider-vpc-subnets: "{{ .Values.router.subnets }} "
+spec:
+ type: LoadBalancer
+ selector:
+    ingresscontroller.operator.openshift.io/deployment-ingresscontroller: default
+ ports:
+   - name: http
+     protocol: TCP
+     port: 80
+     targetPort: 80
+   - name: https
+     protocol: TCP
+     port: 443
