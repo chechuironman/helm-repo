@@ -8,7 +8,7 @@ metadata:
 apiVersion: v1
 data: 
   CSI_LOG_LEVEL: "5"
-  CSI_PLUGIN_TOLERATIONS: |
+  CSI_PLUGIN_TOLERATIONS: |-
     - effect: NoExecute
       key: node-role.kubernetes.io/cloud-paks
       operator: Equal
@@ -21,7 +21,7 @@ data:
       key: node.ocs.openshift.io/storage
       operator: Equal
       value: "true"
-  CSI_PROVISIONER_TOLERATIONS: |2-
+  CSI_PROVISIONER_TOLERATIONS: |-
     - effect: NoExecute
       key: node.ocs.openshift.io/storage
       operator: Equal
