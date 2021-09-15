@@ -9,18 +9,30 @@ apiVersion: v1
 data: 
   CSI_LOG_LEVEL: "5"
   CSI_PLUGIN_TOLERATIONS: |-
+    {{- if eq .Values.cpaks_enable "true" }}
     - effect: NoExecute
       key: node-role.kubernetes.io/cloud-paks
       operator: Equal
       value: "true"
+    {{- end }}
+    {{- if eq .Values.foundational_services_enable "true" }}
     - effect: NoExecute
       key: node-role.kubernetes.io/foundational-services
       operator: Equal
       value: "true"
+    {{- end }}
+    {{- if eq .Values.storage_enable "true" }}
     - effect: NoExecute
       key: node.ocs.openshift.io/storage
       operator: Equal
       value: "true"
+    {{- end }}
+    {{- if eq .Values.worker_enable "true" }}
+    - effect: NoExecute
+      key: node.ocs.openshift.io/worker
+      operator: Equal
+      value: "true"
+    {{- end }}
   CSI_PROVISIONER_TOLERATIONS: |-
     - effect: NoExecute
       key: node.ocs.openshift.io/storage
