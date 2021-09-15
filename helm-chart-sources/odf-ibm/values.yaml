@@ -12,7 +12,10 @@ ocs:
   worker_ip_2:
   worker_ip_3:
   billingType:
-  configmap: 
+  cpaks_enable:
+  storage_enable:
+  foundational_services_enable:
+  workers:
 
 
 
