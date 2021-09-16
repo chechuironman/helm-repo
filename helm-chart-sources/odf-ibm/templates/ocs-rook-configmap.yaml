@@ -9,25 +9,25 @@ apiVersion: v1
 data: 
   CSI_LOG_LEVEL: "5"
   CSI_PLUGIN_TOLERATIONS: |-
-    {{- if eq .Values.odf.cpaks_enable true }}
+    {{- if eq .Values.odf.cpaks_enable "enable" }}
     - effect: NoExecute
       key: node-role.kubernetes.io/cloud-paks
       operator: Equal
       value: "true"
     {{- end }}
-    {{- if eq .Values.odf.foundational_services_enable true }}
+    {{- if eq .Values.odf.foundational_services_enable "enable" }}
     - effect: NoExecute
       key: node-role.kubernetes.io/foundational-services
       operator: Equal
       value: "true"
     {{- end }}
-    {{- if eq .Values.odf.storage_enable true }}
+    {{- if eq .Values.odf.storage_enable "enable" }}
     - effect: NoExecute
       key: node.ocs.openshift.io/storage
       operator: Equal
       value: "true"
     {{- end }}
-    {{- if eq .Values.odf.worker_enable true }}
+    {{- if eq .Values.odf.worker_enable "enable" }}
     - effect: NoExecute
       key: node-role.kubernetes.io/worker
       operator: Equal
