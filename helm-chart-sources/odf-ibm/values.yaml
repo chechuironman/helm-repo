@@ -11,11 +11,11 @@ ocs:
   worker_ip_1:
   worker_ip_2:
   worker_ip_3:
-  billingType:
-  cpaks_enable:
-  storage_enable:
-  foundational_services_enable:
-  workers:
+  billingType: advanced
+  cpaks_enable: true
+  storage_enable: true
+  foundational_services_enable: true
+  worker_enable: true
 
 
 
