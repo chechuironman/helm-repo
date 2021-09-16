@@ -4,14 +4,14 @@ metadata:
   annotations:    
   name: ocscluster-vpc
 spec:
-  monStorageClassName:  {{ .Values.ocs.storageClass }}
+  monStorageClassName:  {{ .Values.odf.storageClass }}
   monSize: 20Gi
-  osdStorageClassName: {{ .Values.ocs.storageClass }}
-  osdSize: {{ .Values.ocs.sizeOSD }} 
+  osdStorageClassName: {{ .Values.odf.storageClass }}
+  osdSize: {{ .Values.odf.sizeOSD }} 
   numOfOsd: 3
-  billingType: {{ .Values.ocs.billingType }} 
+  billingType: {{ .Values.odf.billingType }} 
   ocsUpgrade: false
   workerNodes: 
-    - {{ .Values.ocs.worker_ip_1 }} 
-    - {{ .Values.ocs.worker_ip_2 }}
-    - {{ .Values.ocs.worker_ip_3 }}
+    - {{ .Values.odf.worker_ip_1 }} 
+    - {{ .Values.odf.worker_ip_2 }}
+    - {{ .Values.odf.worker_ip_3 }}
