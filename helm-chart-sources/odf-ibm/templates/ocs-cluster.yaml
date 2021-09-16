@@ -2,6 +2,8 @@ apiVersion: ocs.ibm.io/v1
 kind: OcsCluster
 metadata:
   annotations:    
+    argocd.argoproj.io/sync-wave: "100"
+    helm.sh/hook-weight: "100"
   name: ocscluster-vpc
 spec:
   monStorageClassName:  {{ .Values.odf.storageClass }}

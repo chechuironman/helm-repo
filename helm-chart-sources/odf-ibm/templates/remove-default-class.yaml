@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "100"
+    helm.sh/hook-weight: "100"
+  name: delete-default-class
+spec:
+  parallelism: 1    
+  completions: 1    
+  activeDeadlineSeconds: 1800 
+  backoffLimit: 6   
+  template:         
+    metadata:
+      name: delete-default-class
+    spec:
+      containers:
+      - name: delete-default-class
+        image: openshift/origin-cli
+        command: ["oc", "patch", "sc", ",ibmc-vpc-block-10iops-tier",  "-p", "'{ \"metadata\":{ \"annotations\":{\"storageclass.beta.kubernetes.io/is-default-class\": \"false\"}}}'"]
+      restartPolicy: OnFailure

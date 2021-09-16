@@ -3,8 +3,8 @@ metadata:
   name: rook-ceph-operator-config
   namespace: openshift-storage
   annotations:
-    argocd.argoproj.io/sync-wave: "110"
-    helm.sh/hook-weight: "110"
+    argocd.argoproj.io/sync-wave: "100"
+    helm.sh/hook-weight: "100"
 apiVersion: v1
 data: 
   CSI_LOG_LEVEL: "5"
@@ -34,8 +34,28 @@ data:
       value: "true"
     {{- end }}
   CSI_PROVISIONER_TOLERATIONS: |-
+    {{- if eq .Values.odf.cpaks_enable "enable" }}
+    - effect: NoExecute
+      key: node-role.kubernetes.io/cloud-paks
+      operator: Equal
+      value: "true"
+    {{- end }}
+    {{- if eq .Values.odf.foundational_services_enable "enable" }}
+    - effect: NoExecute
+      key: node-role.kubernetes.io/foundational-services
+      operator: Equal
+      value: "true"
+    {{- end }}
+    {{- if eq .Values.odf.storage_enable "enable" }}
     - effect: NoExecute
       key: node.ocs.openshift.io/storage
       operator: Equal
       value: "true"
+    {{- end }}
+    {{- if eq .Values.odf.worker_enable "enable" }}
+    - effect: NoExecute
+      key: node-role.kubernetes.io/worker
+      operator: Equal
+      value: "true"
+    {{- end }}
   
