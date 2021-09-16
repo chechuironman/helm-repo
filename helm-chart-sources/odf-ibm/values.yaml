@@ -6,16 +6,16 @@ ocs:
   # installOCS: true
   # channel: stable-4.6
   # version: 4.6.3
-  sizeOSD: 512 Gi
-  storageClass: ocs-initial
+  sizeOSD: 
+  storageClass: 
   worker_ip_1:
   worker_ip_2:
   worker_ip_3:
-  billingType: advanced
-  cpaks_enable: true
-  storage_enable: true
-  foundational_services_enable: true
-  worker_enable: true
+  billingType: 
+  cpaks_enable: 
+  storage_enable: 
+  foundational_services_enable: 
+  worker_enable: 
 
 
 
