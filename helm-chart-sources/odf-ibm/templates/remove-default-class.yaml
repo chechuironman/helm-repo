@@ -13,9 +13,11 @@ spec:
   template:         
     metadata:
       name: delete-default-class
-    spec:
+    spec: 
+      serviceAccount: ocs-operator 
+      serviceAccountName: ocs-operator 
       containers:
       - name: delete-default-class
         image: openshift/origin-cli
-        command: ["oc", "patch", "sc", ",ibmc-vpc-block-10iops-tier",  "-p", "'{ \"metadata\":{ \"annotations\":{\"storageclass.beta.kubernetes.io/is-default-class\": \"false\"}}}'"]
+        command: ["oc", "patch", "sc", "ibmc-vpc-block-10iops-tier",  "-p", "{ \"metadata\":{ \"annotations\":{\"storageclass.beta.kubernetes.io/is-default-class\": \"false\"}}}"]
       restartPolicy: OnFailure
