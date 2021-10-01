@@ -1,0 +1,18 @@
+# Default values for refarch-ocp4-gitops.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+subscriptions:
+  subscription:
+      channel: beta
+      config:
+        resources: {}
+      installPlanApproval: Automatic
+      name: oadp-operator
+      source: community-operators
+      sourceNamespace: openshift-marketplace
+      startingCSV: oadp-operator.v0.3.0  
+
+
+
+
