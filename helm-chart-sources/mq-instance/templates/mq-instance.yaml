@@ -2,7 +2,7 @@ apiVersion: mq.ibm.com/v1beta1
 kind: QueueManager
 metadata:
   name: {{ .Values.mq-instance.name }} 
-  namespace: cloud{{ .Values.mq-instance.namespace }} pak
+  namespace: {{ .Values.mq-instance.namespace }} pak
 spec:
   license:
     accept: true
