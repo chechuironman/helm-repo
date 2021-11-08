@@ -1,8 +1,8 @@
 apiVersion: mq.ibm.com/v1beta1
 kind: QueueManager
 metadata:
-  name: {{ .Values.mq-instance.name }} 
-  namespace: {{ .Values.mq-instance.namespace }}
+  name: {{ .Values.mq_instance.name }}
+  namespace: {{ .Values.mq_instance.namespace }}
 spec:
   license:
     accept: true
@@ -27,7 +27,7 @@ spec:
       timeoutSeconds: 3
     route:
       enabled: true
-    name: {{ .Values.mq-instance.name }} 
+    name: {{ .Values.mq_instance.name }} 
     livenessProbe:
       failureThreshold: 1
       initialDelaySeconds: 90
@@ -40,18 +40,18 @@ spec:
     availability:
       type: MultiInstance
     storage:
-      defaultClass: {{ .Values.mq-instance.storage-class }} 
+      defaultClass: {{ .Values.mq_instance.storage_class }} 
       persistedData:
-        class: {{ .Values.mq-instance.storage-class }} 
+        class: {{ .Values.mq_instance.storage_class }} 
         enabled: true
         size: 5Gi
         type: persistent-claim
       queueManager:
-        class: {{ .Values.mq-instance.storage-class }} 
+        class: {{ .Values.mq_instance.storage_class }} 
         size: 20Gi
         type: persistent-claim
       recoveryLogs:
-        class: {{ .Values.mq-instance.storage-class }} 
+        class: {{ .Values.mq_instance.storage_class }} 
         enabled: true
         size: 5Gi
         type: persistent-claim
