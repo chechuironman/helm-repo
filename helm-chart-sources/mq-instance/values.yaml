@@ -3,7 +3,9 @@
 # Declare variables to be passed into your templates.
 
 mq-instance:
-  text: 
+  name:
+  namespace:
+  storage-class: 
 
 
 
