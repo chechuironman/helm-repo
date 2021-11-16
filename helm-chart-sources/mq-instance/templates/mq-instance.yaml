@@ -57,6 +57,7 @@ spec:
         type: persistent-claim
   securityContext:
     initVolumeAsRoot: false
+    fsGroup: 1000710000
   template:
     pod:
       containers:
