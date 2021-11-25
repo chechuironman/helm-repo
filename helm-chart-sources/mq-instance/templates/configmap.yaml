@@ -1,0 +1,15 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ .Values.mq_instance.  configmap }}
+  namespace: {{ .Values.mq_instance.namespace }}
+data:
+  mqexternal.mqsc: >-
+    define ql({{ .Values.mq_instance.  configmap }})
+
+    DEFINE CHANNEL(MQEXTERNALCHL) CHLTYPE(SVRCONN) TRPTYPE(TCP)
+    SSLCAUTH(OPTIONAL) SSLCIPH('ANY_TLS12_OR_HIGHER')
+
+    set chlauth(MQEXTERNALCHL) TYPE(BLOCKUSER) USERLIST(NOBODY)
+
+    REFRESH SECURITY TYPE(CONNAUTH)

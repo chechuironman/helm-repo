@@ -6,58 +6,28 @@ metadata:
 spec:
   license:
     accept: true
-    license: L-RJON-BUVMQX
+    license: L-RJON-BZFQU2
     metric: VirtualProcessorCore
     use: NonProduction
-  queueManager:
-    metrics:
-      enabled: true
-    resources:
-      limits:
-        cpu: '1'
-        memory: 1Gi
-      requests:
-        cpu: '1'
-        memory: 1Gi
-    readinessProbe:
-      failureThreshold: 1
-      initialDelaySeconds: 10
-      periodSeconds: 5
-      successThreshold: 1
-      timeoutSeconds: 3
-    route:
-      enabled: true
-    name: {{ .Values.mq_instance.name }} 
-    livenessProbe:
-      failureThreshold: 1
-      initialDelaySeconds: 90
-      periodSeconds: 10
-      successThreshold: 1
-      timeoutSeconds: 5
-    imagePullPolicy: IfNotPresent
-    debug: false
-    logFormat: Basic
-    availability:
-      type: MultiInstance
-    storage:
-      defaultClass: {{ .Values.mq_instance.storage_class }} 
-      persistedData:
-        class: {{ .Values.mq_instance.storage_class }} 
-        enabled: true
-        size: 5Gi
-        type: persistent-claim
-      queueManager:
-        class: {{ .Values.mq_instance.storage_class }} 
-        size: 20Gi
-        type: persistent-claim
-      recoveryLogs:
-        class: {{ .Values.mq_instance.storage_class }} 
-        enabled: true
-        size: 5Gi
-        type: persistent-claim
+  tracing:
+    agent: {}
+    collector: {}
+    enabled: false
+    namespace: ''
+  terminationGracePeriodSeconds: 30
+  pki:
+    keys:
+      - name: default
+        secret:
+          items:
+            - tls.key
+            - tls.crt
+          secretName: {{ .Values.mq_instance.tls }}
   securityContext:
     initVolumeAsRoot: false
-    fsGroup: 1000710000
+  web:
+    enabled: false
+  version: {{ .Values.mq_instance.version }}
   template:
     pod:
       containers:
@@ -66,12 +36,59 @@ spec:
               value: 'yes'
           name: qmgr
           resources: {}
-  terminationGracePeriodSeconds: 30
-  tracing:
-    agent: {}
-    collector: {}
-    enabled: false
-    namespace: ''
-  version: 9.2.1.0-r1
+  queueManager:
+    metrics:
+      enabled: true
+    resources:
+      limits:
+        cpu: 250m
+        memory: 1Gi
+      requests:
+        cpu: 100m
+        memory: 1Gi
+    readinessProbe:
+      failureThreshold: 1
+      initialDelaySeconds: 0
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 3
+    route:
+      enabled: true
+    livenessProbe:
+      failureThreshold: 1
+      initialDelaySeconds: 0
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    imagePullPolicy: IfNotPresent
+    debug: false
+    startupProbe:
+      failureThreshold: 24
+      initialDelaySeconds: 0
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 5
+    mqsc:
+      - configMap:
+          items:
+            - nativehamqsc.mqsc
+          name: {{ .Values.mq_instance.configmap }}
+    logFormat: Basic
+    availability:
+      type: NativeHA
+      updateStrategy: RollingUpdate
+    storage:
+      defaultClass: {{ .Values.mq_instance.storage_class }}
+      persistedData:
+        enabled: false
+      queueManager:
+        size: 2Gi
+        type: persistent-claim
+      recoveryLogs:
+        enabled: false
+
+
+
+
   web:
     enabled: true

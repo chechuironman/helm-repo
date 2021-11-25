@@ -8,6 +8,7 @@ mq_instance:
   storage_class: 
   configmap: 
   secret:
+  version:
 
 
 
