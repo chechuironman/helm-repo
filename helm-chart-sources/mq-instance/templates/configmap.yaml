@@ -5,7 +5,7 @@ metadata:
   namespace: {{ .Values.mq_instance.namespace }}
 data:
   nativehamqsc.mqsc: >-
-    define ql(batman)
+    define ql(BATMAN) DEFPSIST(YES)
 
     DEFINE CHANNEL(MQEXTERNALCHL) CHLTYPE(SVRCONN) TRPTYPE(TCP)
     SSLCAUTH(OPTIONAL) SSLCIPH('ANY_TLS12_OR_HIGHER')
@@ -13,3 +13,4 @@ data:
     set chlauth(MQEXTERNALCHL) TYPE(BLOCKUSER) USERLIST(NOBODY)
 
     REFRESH SECURITY TYPE(CONNAUTH)
+
