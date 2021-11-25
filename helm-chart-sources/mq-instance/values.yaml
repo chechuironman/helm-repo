@@ -9,6 +9,7 @@ mq_instance:
   configmap: 
   secret:
   version:
+  queuename:
 
 
 
