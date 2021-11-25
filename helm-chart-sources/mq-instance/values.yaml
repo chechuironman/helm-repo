@@ -6,6 +6,8 @@ mq_instance:
   name:
   namespace:
   storage_class: 
+  configmap: 
+  secret:
 
 
 
