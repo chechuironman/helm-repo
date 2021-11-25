@@ -1,7 +1,7 @@
 kind: ConfigMap
 apiVersion: v1
 metadata:
-  name: {{ .Values.mq_instance.  configmap }}
+  name: {{ .Values.mq_instance.configmap }}
   namespace: {{ .Values.mq_instance.namespace }}
 data:
   mqexternal.mqsc: >-
