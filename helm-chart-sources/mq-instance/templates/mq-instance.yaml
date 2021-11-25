@@ -22,7 +22,7 @@ spec:
           items:
             - tls.key
             - tls.crt
-          secretName: {{ .Values.mq_instance.tls }}
+          secretName: {{ .Values.mq_instance.secret }}
   securityContext:
     initVolumeAsRoot: false
   web:
