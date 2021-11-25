@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.mq_instance.configmap }}
   namespace: {{ .Values.mq_instance.namespace }}
 data:
-  mqexternal.mqsc: >-
+  nativehamqsc.mqsc: >-
     define ql(batman)
 
     DEFINE CHANNEL(MQEXTERNALCHL) CHLTYPE(SVRCONN) TRPTYPE(TCP)
