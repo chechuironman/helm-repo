@@ -137,7 +137,6 @@ spec:
         ip: {{ .Values.cnsa.ip_2 }}
       - hostname: {{ .Values.cnsa.fqdn_3 }}
         ip: {{ .Values.cnsa.ip_3 }}
-    grafanaBridge: {}
     clusterProfile:
       controlSetxattrImmutableSELinux: "yes"
       enforceFilesetQuotaOnRoot: "yes"
