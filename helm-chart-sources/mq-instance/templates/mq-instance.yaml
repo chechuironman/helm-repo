@@ -80,12 +80,12 @@ spec:
     storage:
       defaultClass: {{ .Values.mq_instance.storage_class }}
       persistedData:
-        enabled: false
+        enabled: true
       queueManager:
         size: 2Gi
         type: persistent-claim
       recoveryLogs:
-        enabled: false
+        enabled: true
 
 
 

@@ -5,5 +5,5 @@ metadata:
 provisioner: spectrumscale.csi.ibm.com
 parameters:
   clusterId: {{ .Values.cnsa.cluster_id }}
-  volBackendFs: {{ .Values.cnsa.spectrum-1-fs0 }}
+  volBackendFs: spectrum-1-fs0
 reclaimPolicy: Delete
