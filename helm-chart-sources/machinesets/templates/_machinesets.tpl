@@ -179,6 +179,8 @@ providerSpec:
 {{- $datastore := required "Missing vsphere.datastore in your values.yaml file" $.Values.vsphere.datastore -}}
 {{- $cluster := required "Missing vsphere.cluster in your values.yaml file" $.Values.vsphere.cluster -}}
 {{- $server := required "Missing vsphere.server in your values.yaml file" $.Values.vsphere.server -}}
+{{- $folder := required "Missing vsphere.folder in your values.yaml file" $.Values.vsphere.folder -}}
+
 providerSpec:
   value:
     apiVersion: vsphereprovider.openshift.io/v1beta1
@@ -201,7 +203,7 @@ providerSpec:
     workspace:
       datacenter: {{ $datacenter }}
       datastore: {{ $.Values.vsphere.datastore }}
-      folder: /{{ .Values.vsphere.datacenter }}/vm/{{ .Values.infrastructureId }}
+      folder: /{{ .Values.vsphere.datacenter }}/vm/{{ .Values.folder }}
       resourcePool: /{{ .Values.vsphere.datacenter }}/host/{{ .Values.vsphere.cluster }}/Resources
       server: {{ $.Values.vsphere.server }}
 {{- end -}}
