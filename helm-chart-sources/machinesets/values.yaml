@@ -1,4 +1,4 @@
-infrastructureId: 
+infrastructureId: "piss"
 
 cloudProvider:
   name: "" # aws, azure, ibmcloud or vsphere
