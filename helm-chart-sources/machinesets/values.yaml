@@ -1,4 +1,4 @@
-infrastructureId: ""
+infrastructureId: 
 
 cloudProvider:
   name: "" # aws, azure, ibmcloud or vsphere
