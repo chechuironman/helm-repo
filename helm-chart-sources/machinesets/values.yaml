@@ -80,4 +80,4 @@ global:
   cloudpakNodes:
     taints:
     labels:
-      node-role.kubernetes.io/cp4x: ""
+      node-role.kubernetes.io/cloudpak: ""

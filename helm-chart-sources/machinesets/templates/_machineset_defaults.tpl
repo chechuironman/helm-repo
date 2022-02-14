@@ -83,7 +83,18 @@ Default Node Sizes
 {{- default "bx2d-16x64" .Values.cloud.storageNodes.instanceType }}
 {{- end -}}
 {{- if eq .Name "infra" -}}
-{{- default "bx2d-4x16" .Values.cloud.infraNodes.instanceType }}
+{{- default "bx2.8x32" .Values.cloud.infraNodes.instanceType }}
+{{- end -}}
+{{- if eq .Name "cp4x" -}}
+{{- default "bx2d-8x32" .Values.cloud.cloudpakNodes.instanceType }}
+{{- end -}}
+{{- end -}}
+{{- if eq $.Values.cloudProvider.name "vsphere" -}}
+{{- if eq .Name "storage" -}}
+{{- default "bx2d-16x64" .Values.cloud.storageNodes.instanceType }}
+{{- end -}}
+{{- if eq .Name "infra" -}}
+{{- default "bx2.16x32" .Values.cloud.infraNodes.instanceType }}
 {{- end -}}
 {{- if eq .Name "cp4x" -}}
 {{- default "bx2d-8x32" .Values.cloud.cloudpakNodes.instanceType }}
