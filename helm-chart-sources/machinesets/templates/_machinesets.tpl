@@ -203,7 +203,7 @@ providerSpec:
     workspace:
       datacenter: {{ $datacenter }}
       datastore: {{ $.Values.vsphere.datastore }}
-      folder: /{{ .Values.vsphere.datacenter }}/vm/{{ .Values.folder }}
+      folder: /{{ .Values.vsphere.datacenter }}/vm/{{ .Values.vsphere.folder }}
       resourcePool: /{{ .Values.vsphere.datacenter }}/host/{{ .Values.vsphere.cluster }}/Resources
       server: {{ $.Values.vsphere.server }}
 {{- end -}}

@@ -10,6 +10,7 @@ vsphere:
   datastore: 
   cluster: 
   server: 
+  folder:
   zones:
     - 1
   infraNodes:
