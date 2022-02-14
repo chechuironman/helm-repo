@@ -32,7 +32,7 @@ vsphere:
     numCoresPerSocket:
 
 cloud:
-  region: 
+  region: default
   zones: {}
   image:
   resourceGroup:
