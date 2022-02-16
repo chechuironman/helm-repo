@@ -3,7 +3,7 @@ entries:
   cnsa:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2022-02-16T09:54:22.662273+01:00"
+    created: "2022-02-16T18:27:47.915576+01:00"
     description: A Helm chart for deploying cnsa for Spectrum Scale
     digest: 9a3a1e8bcb074778a93bc1d72f1c16a335fef55857bbffba9dafaaf9eb0038c8
     name: cnsa
@@ -14,7 +14,7 @@ entries:
   console-notification:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-02-16T09:54:22.662678+01:00"
+    created: "2022-02-16T18:27:47.915901+01:00"
     description: A Helm chart for deploying console-link
     digest: 720185b0413432cbb1ca182a6506290e4c6b8e60914a273e1f3f2aff8df4463c
     name: console-notification
@@ -25,7 +25,7 @@ entries:
   cp4data-instance:
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2022-02-16T09:54:22.662986+01:00"
+    created: "2022-02-16T18:27:47.916194+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: a90be14dddf8ae98642413265809ea60071966e196c05d46a510397c48bc32ec
@@ -37,7 +37,7 @@ entries:
   cp4data-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-02-16T09:54:22.663298+01:00"
+    created: "2022-02-16T18:27:47.916472+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: f14f6f87c02069ecb81eaef153c293a487f9cea35392f092ab0b724629ce855e
@@ -49,7 +49,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-16T09:54:22.664094+01:00"
+    created: "2022-02-16T18:27:47.916912+01:00"
     description: A Helm chart for Kubernetes
     digest: a026790c907b90e2ed51accbdff81758c496adaacb0864d507fa43ec7cd13cbb
     name: helm-chart-test
@@ -60,7 +60,7 @@ entries:
   machinesets:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-16T09:54:22.664985+01:00"
+    created: "2022-02-16T18:27:47.91758+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 9b487580a6ea2d10d79bbf628d13db28297085ed91083bb5b79d0a9c00817972
@@ -72,7 +72,7 @@ entries:
   mq-instance:
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2022-02-16T09:54:22.665454+01:00"
+    created: "2022-02-16T18:27:47.917867+01:00"
     description: A Helm chart for deploying mq-instance
     digest: 36959044a5f6b06100e38e5766321b5d2e018c4e25a1643f5021fd28baa83bb1
     name: mq-instance
@@ -83,7 +83,7 @@ entries:
   oadp-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-02-16T09:54:22.665843+01:00"
+    created: "2022-02-16T18:27:47.918128+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 7f5b4b97a31dfe7f8386df983932ecc6975dd6dc20ea5a1b343d3c1c8ac5c893
@@ -95,7 +95,7 @@ entries:
   odf-operator:
   - apiVersion: v2
     appVersion: 0.3.12
-    created: "2022-02-16T09:54:22.666286+01:00"
+    created: "2022-02-16T18:27:47.918481+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 16bbfb825037453defc2668606a4e96cccd2f135fa4d45744840125604cd6205
@@ -106,8 +106,19 @@ entries:
     version: 0.3.12
   odf-operator-native:
   - apiVersion: v2
+    appVersion: 0.1.3
+    created: "2022-02-16T18:27:47.919247+01:00"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: d73702027393a803c2236f8d6780a43f050e60cd854e915615b3051fe9b20fb4
+    name: odf-operator-native
+    type: application
+    urls:
+    - https://chechuironman.github.io/helm-repo/odf-operator-native-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-02-16T09:54:22.666918+01:00"
+    created: "2022-02-16T18:27:47.918889+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 28ed29756e74ee8baa7a823d66dc4cf05f22c012212f8bbbef5af3f7d156a6c4
@@ -119,7 +130,7 @@ entries:
   router-default-pro:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-02-16T09:54:22.667308+01:00"
+    created: "2022-02-16T18:27:47.919488+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: fe59a155a4bb6d1d88f468a9f3663390d5e572d18bc15a2be2f529c272cef7e6
@@ -128,4 +139,4 @@ entries:
     urls:
     - https://chechuironman.github.io/helm-repo/router-default-pro-0.1.1.tgz
     version: 0.1.1
-generated: "2022-02-16T09:54:22.659292+01:00"
+generated: "2022-02-16T18:27:47.898901+01:00"
