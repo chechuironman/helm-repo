@@ -5,6 +5,7 @@
 channel: ""
 sizeGiB: ""
 storageClass: ""
+csv: ""
 
 infraNodes:
   taints: {}

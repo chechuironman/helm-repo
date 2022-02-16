@@ -13,3 +13,6 @@ spec:
   name: odf-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace
+  startingCSV: {{ .Values.csv }}
+
+
