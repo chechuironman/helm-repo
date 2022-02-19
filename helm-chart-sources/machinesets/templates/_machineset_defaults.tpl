@@ -28,7 +28,7 @@ Default MachineSet Replica Count
 {{- end -}}
 {{- if eq $.Values.cloudProvider.name "vsphere" -}}
 {{- if eq .Name "storage" -}}
-{{- default "3" .Values.vsphere.storageNodes.nodeCount }}
+{{- default "0" .Values.vsphere.storageNodes.nodeCount }}
 {{- end -}}
 {{- if eq .Name "infra" -}}
 {{- default "3" .Values.vsphere.infraNodes.nodeCount }}
