@@ -8,6 +8,7 @@ metadata:
 apiVersion: v1
 data:
   CSI_ENABLE_OMAP_GENERATOR: 'true'
+  CSI_ENABLE_VOLUME_REPLICATION: 'true'
   CSI_LOG_LEVEL: "5"
   CSI_PLUGIN_TOLERATIONS: |
     {{- include "infra.tolerations" . }}
