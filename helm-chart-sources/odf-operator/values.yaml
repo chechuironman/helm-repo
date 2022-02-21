@@ -6,6 +6,8 @@ channel: ""
 sizeGiB: ""
 storageClass: ""
 csv: ""
+replication: "false"
+replication_role: ""
 
 infraNodes:
   taints: {}
