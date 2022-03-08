@@ -72,7 +72,7 @@ global:
       node-role.kubernetes.io/infra: ""
   storageNodes:
     taints:
-      - effect: "NoSchedule"
+      - effect: "NoExecute"
         key: "node.ocs.openshift.io/storage"
         value: "true"
     labels:
