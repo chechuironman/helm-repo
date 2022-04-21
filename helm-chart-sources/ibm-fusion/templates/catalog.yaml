@@ -1,0 +1,13 @@
+
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: isf-catalog
+  namespace: openshift-marketplace
+spec:  
+  sourceType: grpc
+  image: cp.icr.io/cpopen/isf-operator-index:2.2.0
+  displayName: ISF Catalog
+  secrets:
+    - pull-secret
+  publisher: IBM
