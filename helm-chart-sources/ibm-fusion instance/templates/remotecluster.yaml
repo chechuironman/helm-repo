@@ -8,9 +8,9 @@ spec:
   - spectrum-scale-1.chechu.com
   - spectrum-scale-2.chechu.com
   gui:
-    csiSecretName: ibm-spectrum-scale-csi-secret-385763033470755166
+    csiSecretName: ibm-spectrum-scale-csi-secret-{{ .Values.fusion.remotecluster_id }}
     host: spectrum-scale-1.chechu.com
     insecureSkipVerify: true
     port: 443
     scheme: https
-    secretName: ibm-spectrum-scale-gui-secret-385763033470755166
+    secretName: ibm-spectrum-scale-gui-secret-{{ .Values.fusion.remotecluster_id }}

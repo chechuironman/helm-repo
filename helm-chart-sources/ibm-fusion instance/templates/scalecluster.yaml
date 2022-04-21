@@ -14,7 +14,7 @@ spec:
     csiSecret: ibm-spectrum-fusion-scale-csi-secret-{{ .Values.fusion.remotecluster_id }} 
     fileSystems:
     - name: {{ .Values.fusion.filesystem }} 
-      scName: {{ .Values.fusion.storageclass_fusion }} 
+      scName: {{ .Values.fusion.storageclass-fusion }} 
     guiSecret: ibm-spectrum-fusion-scale-gui-secret-{{ .Values.fusion.remotecluster_id }} 
     host: {{ .Values.fusion.node_fqdn_1 }} 
     insecureSkipVerify: true
