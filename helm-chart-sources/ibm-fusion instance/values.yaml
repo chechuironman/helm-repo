@@ -5,5 +5,5 @@ fusion:
   node_fqdn_2:
   node_ip_2: 
   storageclass: 
-  storageclass-fusion:
+  storageclass_fusion:
   filesystem:
