@@ -1,0 +1,18 @@
+apiVersion: v1
+items:
+- apiVersion: scale.spectrum.ibm.com/v1beta1
+  kind: RemoteCluster
+  metadata:
+    name: ibm-spectrum-scale-remote-{{ .Values.fusion.remotecluster_id }} 
+    namespace: ibm-spectrum-scale
+  spec:
+    contactNodes:
+    - {{ .Values.fusion.node_fqdn_1 }} 
+    - {{ .Values.fusion.node_fqdn_2 }} 
+    gui:
+      csiSecretName: ibm-spectrum-scale-csi-secret-{{ .Values.fusion.remotecluster_id }}
+      host: {{ .Values.fusion.node_fqdn_1 }} 
+      insecureSkipVerify: true
+      port: 443
+      scheme: https
+      secretName: ibm-spectrum-scale-gui-secret-{{ .Values.fusion.remotecluster_id }} 

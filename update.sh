@@ -1,4 +1,4 @@
-#!/usr/local/Cellar/bash/5.1/bin/bash 
+#!/bin/bash 
 message=$1
 echo ${message}
 helm package helm-chart-sources/*
