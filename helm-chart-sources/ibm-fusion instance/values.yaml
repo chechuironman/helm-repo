@@ -1,0 +1,9 @@
+fusion:
+  remotecluster_id:
+  node_fqdn_1:
+  node_ip_1: 
+  node_fqdn_2:
+  node_ip_2: 
+  storageclass: 
+  storageclass-fusion:
+  filesystem:
