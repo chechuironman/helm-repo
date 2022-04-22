@@ -5,7 +5,7 @@ metadata:
   namespace: ibm-spectrum-fusion-ns
 spec:
   remoteScale:
-    clusterID: "{{ .Values.fusion.remotecluster_id }}" 
+    clusterID: "{{ .Values.fusion.remotecluster_id }}"
     contactNodes:
     - hostname: {{ .Values.fusion.node_fqdn_1 }} 
       ip: {{ .Values.fusion.node_ip_1 }} 
