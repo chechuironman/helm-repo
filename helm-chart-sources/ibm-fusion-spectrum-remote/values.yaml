@@ -6,3 +6,7 @@ fusion:
   node_ip_2: 
   storageclass_fusion: 
   filesystem:
+  csi_secret_user:
+  csi_secret_password:
+  gui_secret_password:  
+  gui_secret_user:
