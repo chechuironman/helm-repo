@@ -6,7 +6,6 @@ metadata:
 spec:
   remoteScale:
     clusterID: "{{ .Values.fusion.remotecluster_id }}"
-    clusterNameOverride: "{{ .Values.fusion.name_override }}"
     contactNodes:
     - hostname: {{ .Values.fusion.node_fqdn_1 }} 
       ip: {{ .Values.fusion.node_ip_1 }} 
