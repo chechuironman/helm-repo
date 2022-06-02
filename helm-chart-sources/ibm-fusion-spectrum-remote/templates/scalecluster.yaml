@@ -1,7 +1,7 @@
 apiVersion: cns.isf.ibm.com/v1
 kind: ScaleCluster
 metadata:
-  name: ibm-spectrum-fusion-scale-cluster 
+  name: ibm-spectrum-fusion-scale-cluster-{{ .Values.fusion.remotecluster_id }}
   namespace: ibm-spectrum-fusion-ns
 spec:
   remoteScale:
@@ -11,11 +11,11 @@ spec:
       ip: {{ .Values.fusion.node_ip_1 }} 
     - hostname: {{ .Values.fusion.node_fqdn_2 }} 
       ip: {{ .Values.fusion.node_ip_2 }} 
-    csiSecret: ibm-spectrum-fusion-scale-csi-secret
+    csiSecret: ibm-spectrum-fusion-scale-csi-secret-{{ .Values.fusion.remotecluster_id }}
     fileSystems:
     - name: {{ .Values.fusion.filesystem }} 
       scName: {{ .Values.fusion.storageclass_fusion }} 
-    guiSecret: ibm-spectrum-fusion-scale-gui-secret 
+    guiSecret: ibm-spectrum-fusion-scale-gui-secret-{{ .Values.fusion.remotecluster_id }}
     host: {{ .Values.fusion.node_fqdn_1 }} 
     insecureSkipVerify: true
     port: 443
