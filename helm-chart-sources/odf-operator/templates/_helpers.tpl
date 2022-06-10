@@ -14,3 +14,9 @@ Generate tolerations
   {{ toYaml (default $.Values.global.storageNodes.taints $.Values.storageNodes.taints) | nindent 4 -}}
   {{- end -}}
 {{ end -}}
+
+{{- define "other.tolerations" -}}
+  {{- if (default $.Values.global.otherNodes.taints $.Values.otherNodes.taints) -}}
+  {{ toYaml (default $.Values.global.otherNodes.taints $.Values.otherNodes.taints) | nindent 4 -}}
+  {{- end -}}
+{{ end -}}
