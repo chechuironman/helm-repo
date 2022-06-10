@@ -38,4 +38,6 @@ global:
     taints:
     labels:
       node-role.kubernetes.io/cp4x: ""
-    
+  otherNodes:
+    taints:
+    labels:
