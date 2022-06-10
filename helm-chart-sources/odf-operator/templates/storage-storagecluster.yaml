@@ -8,8 +8,6 @@ metadata:
     helm.sh/hook-weight: "103"
 spec:
   externalStorage: {}
-  mirroring:
-    enabled: true
   storageDeviceSets:
   - config: {}
     count: 1
