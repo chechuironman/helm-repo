@@ -19,3 +19,4 @@ spec:
     host: {{ .Values.fusion.node_fqdn_1 }} 
     insecureSkipVerify: true
     port: 443
+
