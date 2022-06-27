@@ -45,12 +45,14 @@ spec:
     storage:
       defaultClass: ocs-storagecluster-ceph-rbdmirror
       persistedData:
-        enabled: false
+        enabled: true
       queueManager:
         size: 2Gi
         type: persistent-claim
       recoveryLogs:
-        enabled: false
+        enabled: true
+      labels:
+        appname: mq-sample-dr
   securityContext:
     initVolumeAsRoot: false
   template:
