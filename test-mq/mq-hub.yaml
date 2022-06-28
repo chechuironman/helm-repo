@@ -4,7 +4,7 @@ metadata:
   name: quickstart-cp4i
   namespace: cloudpak
   labels:
-    appname: mq
+    appname: mq-sample
 spec:
   license:
     accept: true
@@ -52,7 +52,7 @@ spec:
       recoveryLogs:
         enabled: true
       labels:
-        appname: mq-sample-dr
+        appname: mq-sample
   securityContext:
     initVolumeAsRoot: false
   template:
