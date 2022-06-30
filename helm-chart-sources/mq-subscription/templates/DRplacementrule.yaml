@@ -13,7 +13,7 @@ spec:
   preferredCluster: {{ .Values.mq_instance_dr.preferredCluster }}
   pvcSelector:
     matchLabels:
-      {{ .Values.mq_instance_dr.matchLabel }}  
+      {{- .Values.mq_instance_dr.matchLabel | nindent 6 -}}  
   {{- if (eq $.Values.mq_instance_dr.action "Failover")  -}}
   action: {{ .Values.mq_instance_dr.action }}
   failoverCluster: {{ .Values.mq_instance_dr.failoverCluster }}
