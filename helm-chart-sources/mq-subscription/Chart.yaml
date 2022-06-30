@@ -1,5 +1,5 @@
 apiVersion: v2
-name: mq-instance
+name: mq-instance-dr
 description: A Helm chart for deploying mq-instance
 type: application
 version: 0.1.0

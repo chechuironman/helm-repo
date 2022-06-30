@@ -2,14 +2,17 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-mq_instance:
+mq_instance_dr:
   name:
   namespace:
-  storage_class: 
-  configmap: 
-  secret:
-  version:
-  queuename:
+  preferredCluster: 
+  matchLabel: 
+  failoverCluster:
+  action:
+  preferredCluster:
+  git_branch:
+  git_path:
+  git_folder:
 
 
 
