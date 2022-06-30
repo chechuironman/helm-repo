@@ -11,13 +11,15 @@ spec:
     kind: PlacementRule
     name: {{ .Values.mq_instance_dr.name }}-placement
   preferredCluster: {{ .Values.mq_instance_dr.preferredCluster }}
+  pvcSelector:
+    matchLabels:
+      {{ .Values.mq_instance_dr.matchLabel }}  
   {{- if (eq $.Values.mq_instance_dr.action "Failover")  -}}
   action: {{ .Values.mq_instance_dr.action }}
   failoverCluster: {{ .Values.mq_instance_dr.failoverCluster }}
   {{- end -}}
+  
   {{- if and (eq $.Values.mq_instance_dr.action "Relocate")  -}}
   action: {{ .Values.mq_instance_dr.action }}
   {{- end -}}
-  pvcSelector:
-    matchLabels:
-      {{ .Values.mq_instance_dr.matchLabel }}
+  
