@@ -3,9 +3,9 @@ entries:
   cnsa:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2022-06-30T17:07:24.232549+02:00"
+    created: "2022-06-30T17:22:03.34689+02:00"
     description: A Helm chart for deploying cnsa for Spectrum Scale
-    digest: e678f84bfebc8d88de6a93c61738d3753515ea5548fe0fed235208a9ed50914a
+    digest: 8e5349ab306582d3250fdfe993ad3d4db317cd3543d9b90cf970892a34692e73
     name: cnsa
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   console-notification:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-06-30T17:07:24.232731+02:00"
+    created: "2022-06-30T17:22:03.347113+02:00"
     description: A Helm chart for deploying console-link
-    digest: 601472f20b406193b3d4c25c87f8f05af937491398d39e2c9be21d7002c5718b
+    digest: 4fb0ffa452da4f2a1330a46ee6c3437b21451c3a69446db0fdd91cb37ef4514f
     name: console-notification
     type: application
     urls:
@@ -25,10 +25,10 @@ entries:
   cp4data-instance:
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2022-06-30T17:07:24.23293+02:00"
+    created: "2022-06-30T17:22:03.347349+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 37406dddfb19368baed4abaff24c53102e5852a4932125a2786fec380ffb1f7b
+    digest: 1e2b8bfa7b3e414e37fbcfabc5959e9913fa368e21f9caf4f81d147b011b5b19
     name: cp4data-instance
     type: application
     urls:
@@ -37,10 +37,10 @@ entries:
   cp4data-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-06-30T17:07:24.233131+02:00"
+    created: "2022-06-30T17:22:03.347596+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: ad096828164807194933610c5b75b3f1719847681158952e395de06ae7dc115f
+    digest: b4a4bb4000324474e843d04afc5bd57054ed016bfea5795bd096694c5b666e22
     name: cp4data-operator
     type: application
     urls:
@@ -49,9 +49,9 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-30T17:07:24.233486+02:00"
+    created: "2022-06-30T17:22:03.348036+02:00"
     description: A Helm chart for Kubernetes
-    digest: 1eeeadd0042aa1572bfa4312e03618cef2b7a72bd61bedb49ac6798ad0cc7d39
+    digest: 9a80cbb24bcd45e87009a77a669b3d22f7f8172b48f9fa4da9836047ffa535ff
     name: helm-chart-test
     type: application
     urls:
@@ -60,9 +60,9 @@ entries:
   ibm-fusion:
   - apiVersion: v2
     appVersion: 0.2.3
-    created: "2022-06-30T17:07:24.23813+02:00"
+    created: "2022-06-30T17:22:03.355021+02:00"
     description: A Helm chart for deploying ibm fusion
-    digest: 50b345a4ef87aff6016d46ef05f5541b5b8eb0955d188aaff3a63f8fd967548a
+    digest: e3774aaefadb319b4a1d76d34d2e6318ea0003b924d82cbd9d9b450998228a2d
     name: ibm-fusion
     type: application
     urls:
@@ -70,7 +70,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2022-06-30T17:07:24.23791+02:00"
+    created: "2022-06-30T17:22:03.354477+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 10c2db3ffcc830598463d9f50331e3a7aef36dd1321a7cba27263569ea301a9f
     name: ibm-fusion
@@ -80,7 +80,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-06-30T17:07:24.236677+02:00"
+    created: "2022-06-30T17:22:03.353055+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: c9ceabd0ae354fb6d6c62530486c511668538b6978abba95d6ad8a927e98969e
     name: ibm-fusion
@@ -90,7 +90,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2022-06-30T17:07:24.23599+02:00"
+    created: "2022-06-30T17:22:03.352095+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 0173ab9fc9b0f53e148fa2baff331b4452ae7f1f1b2ca1d49aac8997a8027078
     name: ibm-fusion
@@ -100,7 +100,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-06-30T17:07:24.235474+02:00"
+    created: "2022-06-30T17:22:03.350836+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 6504c78ad1d156efc418d4580400f1b93f5331e9f21b4ec7068581ed1189407c
     name: ibm-fusion
@@ -110,7 +110,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-06-30T17:07:24.234892+02:00"
+    created: "2022-06-30T17:22:03.349955+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 54e95b7263cce7643e0cadb3fde02af6b2aaee5ed47416f5c96d3162ca62fed0
     name: ibm-fusion
@@ -120,7 +120,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.234081+02:00"
+    created: "2022-06-30T17:22:03.348952+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: ced00a71a1f015c947734456e6d01e9dfe86cd8f4e35ccfc0ebdcad279446ca4
     name: ibm-fusion
@@ -131,9 +131,9 @@ entries:
   ibm-fusion-instance:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2022-06-30T17:07:24.247599+02:00"
+    created: "2022-06-30T17:22:03.365718+02:00"
     description: A Helm chart for deploying ibm fusion
-    digest: 42478177de0c1866b886ffc2a186a156ac76f9080797133bcb10a41d01a205e3
+    digest: b65a55ade7f05d3509c69ec7ef14c20c69636de9d9330bcd090f185c13e2df8f
     name: ibm-fusion-instance
     type: application
     urls:
@@ -141,7 +141,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2022-06-30T17:07:24.247376+02:00"
+    created: "2022-06-30T17:22:03.365498+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 59c0e5926d57199270018635d04dbbace2cdfc3c6f2abe47effcb00ef5c7c788
     name: ibm-fusion-instance
@@ -151,7 +151,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2022-06-30T17:07:24.246779+02:00"
+    created: "2022-06-30T17:22:03.364854+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 0f68e390d6dc05a3e0258b8afc15743c46a54d27f383237038320e7a3a0731ed
     name: ibm-fusion-instance
@@ -161,7 +161,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2022-06-30T17:07:24.246157+02:00"
+    created: "2022-06-30T17:22:03.364197+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: a614e857b0b8101f55d0c0128e8514ae2ca24834942bc67a2e7e05928ee82151
     name: ibm-fusion-instance
@@ -171,7 +171,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2022-06-30T17:07:24.245466+02:00"
+    created: "2022-06-30T17:22:03.363482+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 6f10212c972fdc98c23d857f6f1b0613572e955196dd614240a52d183032b11d
     name: ibm-fusion-instance
@@ -181,7 +181,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2022-06-30T17:07:24.244748+02:00"
+    created: "2022-06-30T17:22:03.362693+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 03a172cf80c6d67c93f321d4c8bb6e2c4a5f215248b63f5d4436178b8d919882
     name: ibm-fusion-instance
@@ -191,7 +191,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2022-06-30T17:07:24.244062+02:00"
+    created: "2022-06-30T17:22:03.361915+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: df7f086d259b9e3e4fd19855d821df7619cc679cf1e7c735b01ca1d4233887c1
     name: ibm-fusion-instance
@@ -201,7 +201,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2022-06-30T17:07:24.243254+02:00"
+    created: "2022-06-30T17:22:03.360953+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: dd34a0efdb37195aa448179de2ecaaad0e085101e47a0d464c759a33bd2557e7
     name: ibm-fusion-instance
@@ -211,7 +211,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2022-06-30T17:07:24.242591+02:00"
+    created: "2022-06-30T17:22:03.360042+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 04ac58e20256ea68e830c0b731ff9e697537bf54013c01c26222375725cc1eb4
     name: ibm-fusion-instance
@@ -221,7 +221,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-06-30T17:07:24.241208+02:00"
+    created: "2022-06-30T17:22:03.359103+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 98fef356742ca5ef17c252c21e4297facb9740c3279c8ed133a6400a35ca32f7
     name: ibm-fusion-instance
@@ -231,7 +231,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-06-30T17:07:24.240332+02:00"
+    created: "2022-06-30T17:22:03.357997+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 26bf6cd662e01bc5fcc43a0b753caabf4967841ff4b2bf9039676c67ea7a61c9
     name: ibm-fusion-instance
@@ -241,7 +241,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-06-30T17:07:24.239584+02:00"
+    created: "2022-06-30T17:22:03.356962+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 7b563d7b433f629b86e132333aa27d4369b7eb71de0cf41248cae84629b2a40e
     name: ibm-fusion-instance
@@ -251,7 +251,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.238848+02:00"
+    created: "2022-06-30T17:22:03.356202+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: ee301356216f07c59489b89b6d5c5dc967eb068d93d30733413799d3f7e5577d
     name: ibm-fusion-instance
@@ -262,9 +262,9 @@ entries:
   ibm-fusion-spectrum-remote:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.249862+02:00"
+    created: "2022-06-30T17:22:03.368341+02:00"
     description: A Helm chart for deploying ibm fusion
-    digest: e3ba0222e29e6926c6871fcd85a688b64b6930ea98a98487296bd5f2c270091f
+    digest: 164c0a44e730b88adf54cff56b5deafa69ce2490f05a7fbe9dee09c5a76ad205
     name: ibm-fusion-spectrum-remote
     type: application
     urls:
@@ -272,7 +272,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.249607+02:00"
+    created: "2022-06-30T17:22:03.368096+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: f13c63062a2aa0daefe3bd75cba4bbbd0b56be2ee6c15ba929f08247e837bce3
     name: ibm-fusion-spectrum-remote
@@ -282,7 +282,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.249005+02:00"
+    created: "2022-06-30T17:22:03.367236+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: e708d2922cdc0364a89ae223f1e48c4195890661dcf0f8f7d70be73c9cff33ba
     name: ibm-fusion-spectrum-remote
@@ -292,7 +292,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.255198+02:00"
+    created: "2022-06-30T17:22:03.374943+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: bb8843ef19c09a853ab2ecc82d409a98c28116902c69252c63911687dd669173
     name: ibm-fusion-spectrum-remote
@@ -302,7 +302,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.254601+02:00"
+    created: "2022-06-30T17:22:03.374256+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: e36bb6e24fd54e7ba89f3a0082638fea392b011e4b4e2fab112d4dcd196bcfdf
     name: ibm-fusion-spectrum-remote
@@ -312,7 +312,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.25386+02:00"
+    created: "2022-06-30T17:22:03.373523+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: cd74f0dd38deb6c5a749857822321d68599cbbae073c6155d007b144cfea1274
     name: ibm-fusion-spectrum-remote
@@ -322,7 +322,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.253182+02:00"
+    created: "2022-06-30T17:22:03.372644+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: cd5d5aaf9944ec3ef117e32ccab673df1cabeae10ba90053f3b2b588994ccdb5
     name: ibm-fusion-spectrum-remote
@@ -332,7 +332,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.252426+02:00"
+    created: "2022-06-30T17:22:03.371043+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 7e1c11038c0bb88ed107a927f32ba46af9e0dde2f1cb6fca59fe1b21607c1efc
     name: ibm-fusion-spectrum-remote
@@ -342,7 +342,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.251746+02:00"
+    created: "2022-06-30T17:22:03.370237+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 3f49aa4aa5d7f7e33ba8691428e7b0e49f2def3979a17e0af4e8f578d2df42d6
     name: ibm-fusion-spectrum-remote
@@ -352,7 +352,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.251309+02:00"
+    created: "2022-06-30T17:22:03.369697+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 197ff2b10428fa5c08765400a9c289a20bccdff1c012096e1311819ec4a1e0e2
     name: ibm-fusion-spectrum-remote
@@ -362,7 +362,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.250636+02:00"
+    created: "2022-06-30T17:22:03.368985+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: 22eace74830616f21b0c60f68aa8bfbe5a4301db834a7589be65e07ce689f83d
     name: ibm-fusion-spectrum-remote
@@ -372,7 +372,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.248043+02:00"
+    created: "2022-06-30T17:22:03.366305+02:00"
     description: A Helm chart for deploying ibm fusion
     digest: e4e51b7d7a679c7e7dd2b983d78c632d3926a343ca219f8c52d6774552a5ad97
     name: ibm-fusion-spectrum-remote
@@ -383,7 +383,7 @@ entries:
   machinesets:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.262053+02:00"
+    created: "2022-06-30T17:22:03.381427+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 1a00f1e9c5904dffb5f39e3f268fef5b0f35dd40bf1a7cca4233d8a11e2befac
@@ -394,10 +394,10 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.261142+02:00"
+    created: "2022-06-30T17:22:03.380438+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: f7343022a003d7dcaccad29d5ad0d4e7c59f0d3957b04380e93a0c37cbc1556b
+    digest: e5f8c63baa2a4eedacac73077a7065d9277d533e939a72bf1e141d9ebd8c4c9f
     name: machinesets
     type: application
     urls:
@@ -405,7 +405,7 @@ entries:
     version: 0.4.15
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.260616+02:00"
+    created: "2022-06-30T17:22:03.379912+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 714a808a1e3aa2450f78f044067e4c03596484b04b2146d3c6b5606c54a5f3b6
@@ -416,7 +416,7 @@ entries:
     version: 0.4.14
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.258808+02:00"
+    created: "2022-06-30T17:22:03.378603+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: f45f4aad8967b886847f84e40a24f882a2a8eeec0672aed1017a459e8d995a6c
@@ -427,7 +427,7 @@ entries:
     version: 0.4.13
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.257414+02:00"
+    created: "2022-06-30T17:22:03.377307+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 060597cf5574df33842641d362d44fa9a3599c972b6dd07d49d72180954a5a72
@@ -438,7 +438,7 @@ entries:
     version: 0.4.12
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.256162+02:00"
+    created: "2022-06-30T17:22:03.376042+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 9b487580a6ea2d10d79bbf628d13db28297085ed91083bb5b79d0a9c00817972
@@ -450,10 +450,10 @@ entries:
   machinesets-v2:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.263498+02:00"
+    created: "2022-06-30T17:22:03.38269+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: ee55551a703c1d62ff3660894dbe7575bcf3c213fd3f090b2adb254cf46c87a1
+    digest: d84613879d3dc688e3d47d3ba3d0d81293b8bce5b459222505e25b69ccd37b8a
     name: machinesets-v2
     type: application
     urls:
@@ -461,7 +461,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.263083+02:00"
+    created: "2022-06-30T17:22:03.382249+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 9fc153d068fa57ca9ef96ad5b3f4fb708caf4fcd93da8a1e8d0d09dba96f1c5e
@@ -473,9 +473,9 @@ entries:
   mq-dr-instance:
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2022-06-30T17:07:24.263707+02:00"
+    created: "2022-06-30T17:22:03.382942+02:00"
     description: A Helm chart for deploying mq-instance with ODF DR
-    digest: 17d23fb0ff5283b36f37d4998ccd180626c3818e9ed7393d4331b27b176b47b3
+    digest: 72d2686bcf423c8cf2ce619b806c7ae9c9856e0c3c38ad973939e21e47d48643
     name: mq-dr-instance
     type: application
     urls:
@@ -484,7 +484,7 @@ entries:
   mq-instance:
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2022-06-30T17:07:24.264842+02:00"
+    created: "2022-06-30T17:22:03.383866+02:00"
     description: A Helm chart for deploying mq-instance
     digest: 97451cec743426903c1b8d3cb1ad073c9381cfa439e5f88428ecdc1857540dff
     name: mq-instance
@@ -494,7 +494,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.264282+02:00"
+    created: "2022-06-30T17:22:03.3833+02:00"
     description: A Helm chart for deploying mq-instance
     digest: f1d72aa7f3cc7f018ab64c0982d6f81e98842b32df686f2a9f7a32ebfbdb568b
     name: mq-instance
@@ -504,8 +504,18 @@ entries:
     version: 0.1.0
   mq-instance-dr:
   - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2022-06-30T17:22:03.385868+02:00"
+    description: A Helm chart for deploying mq-instance
+    digest: 65d834b278e04b29c6903cca888e7f6bcb28898c843bcaa77d5bcd5d234e8d62
+    name: mq-instance-dr
+    type: application
+    urls:
+    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-06-30T17:07:24.265711+02:00"
+    created: "2022-06-30T17:22:03.384776+02:00"
     description: A Helm chart for deploying mq-instance
     digest: 7dc3d57f388cc097fe1cd9167827e304719eb250a2b29935114d7a9e5b2cfa1d
     name: mq-instance-dr
@@ -515,7 +525,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.265491+02:00"
+    created: "2022-06-30T17:22:03.384518+02:00"
     description: A Helm chart for deploying mq-instance
     digest: 4eef955fef1387f56a13704c14dccbbad3853412ec20d4a002b126e588538668
     name: mq-instance-dr
@@ -526,10 +536,10 @@ entries:
   oadp-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.265913+02:00"
+    created: "2022-06-30T17:22:03.386135+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 3676363b2539494cc3e54be662222fca3242c9a1822b93b45dfd60e83b67ed3b
+    digest: d94e0b94e0ecccf9c3891a970f760a751a72769c31cc14ec85f6d7c7a44466f8
     name: oadp-operator
     type: application
     urls:
@@ -538,10 +548,10 @@ entries:
   odf-operator:
   - apiVersion: v2
     appVersion: 0.3.12
-    created: "2022-06-30T17:07:24.268552+02:00"
+    created: "2022-06-30T17:22:03.388501+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: b5770b913558c33b2cea61f1789b5c099703e98850bc9a1f3e97a2d3d351e566
+    digest: 325c123fc84f01c29337814031ddd07d4f5daa4fba81d23761a5cb2bdb1a697d
     name: odf-operator
     type: application
     urls:
@@ -549,10 +559,10 @@ entries:
     version: 0.3.12
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.26829+02:00"
+    created: "2022-06-30T17:22:03.388239+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 7db24a16ff6384abb84b252b7a94d4e6475cdc122078cac3506c3c6761f0f62f
+    digest: fef88d0fb546159588a94917c39819f0eacc198010abbd4c99066ecc504a688f
     name: odf-operator
     type: application
     urls:
@@ -560,7 +570,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.267904+02:00"
+    created: "2022-06-30T17:22:03.387876+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: eadf6535855431d7cf755dc5f9b0ea03d9df9a66ff583ce6f52ee2a1c5d276e5
@@ -571,7 +581,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.266931+02:00"
+    created: "2022-06-30T17:22:03.387031+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: ccb0d38f1a6a6566b5a97a418b2713d9b549f96f43fa160f0b446896caa11ec3
@@ -583,7 +593,7 @@ entries:
   odf-operator-native:
   - apiVersion: v2
     appVersion: 0.1.15
-    created: "2022-06-30T17:07:24.274029+02:00"
+    created: "2022-06-30T17:22:03.394711+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 8046be3ae5b380d835e875ffbeb73d1f3846e64c209bf3c4c7648b9b2fa61671
@@ -594,7 +604,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 0.1.14
-    created: "2022-06-30T17:07:24.273159+02:00"
+    created: "2022-06-30T17:22:03.393963+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 956060a4ef179e6239c68cbc805a46c9a6eaad34a70446b2768fd681b727bc1b
@@ -605,7 +615,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 0.1.13
-    created: "2022-06-30T17:07:24.272275+02:00"
+    created: "2022-06-30T17:22:03.391867+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 8b4567448f27cec6ed11b1e7969010f5443a5a064ce69c6da02f3243d340bd09
@@ -616,7 +626,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 0.1.12
-    created: "2022-06-30T17:07:24.270856+02:00"
+    created: "2022-06-30T17:22:03.391015+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 4fc2ec452229e5c139b1953fcc0f276af2a03209e190254dc2528e6a6997b1c8
@@ -627,7 +637,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2022-06-30T17:07:24.270269+02:00"
+    created: "2022-06-30T17:22:03.390204+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 626c55b4c973489bd807d7144b915a4d769fdb5ef9f3775665ec6c3397f89ed7
@@ -638,7 +648,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2022-06-30T17:07:24.269474+02:00"
+    created: "2022-06-30T17:22:03.389397+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: d06324d91fb022d97b0b2dfe196d5b348a0cf11dd177500ef956c5c822a2df2c
@@ -649,7 +659,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2022-06-30T17:07:24.279247+02:00"
+    created: "2022-06-30T17:22:03.400307+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 648c9b60f8d61a7c8bcf375922d5be7716504113c7bd3ea980622aec715c1007
@@ -660,7 +670,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 0.1.7
-    created: "2022-06-30T17:07:24.278503+02:00"
+    created: "2022-06-30T17:22:03.399328+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 015348c1be18b3982171c388afdab9284718432b4e0c2bb436e681cc51353abe
@@ -671,7 +681,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 0.1.6
-    created: "2022-06-30T17:07:24.277712+02:00"
+    created: "2022-06-30T17:22:03.398379+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: f115687b41a1e3f0320006c3aa67162ff1d2c7366f6cea6e9d814dcb8cbc6d46
@@ -682,7 +692,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2022-06-30T17:07:24.276935+02:00"
+    created: "2022-06-30T17:22:03.397486+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: b37faa033b0f1af53cad7ea59ad6711d7fc7c69b5481366579559a0dc29b9d32
@@ -693,7 +703,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2022-06-30T17:07:24.276219+02:00"
+    created: "2022-06-30T17:22:03.396728+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 77e2b5cbf4b3a57b6a65bdaf68a53b4a56d62bcab734f1f3f0a65f29fbc35515
@@ -704,7 +714,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2022-06-30T17:07:24.27541+02:00"
+    created: "2022-06-30T17:22:03.396001+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: d73702027393a803c2236f8d6780a43f050e60cd854e915615b3051fe9b20fb4
@@ -715,7 +725,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2022-06-30T17:07:24.274646+02:00"
+    created: "2022-06-30T17:22:03.395315+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
     digest: 28ed29756e74ee8baa7a823d66dc4cf05f22c012212f8bbbef5af3f7d156a6c4
@@ -727,9 +737,9 @@ entries:
   rhacm-hub-instance:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.279433+02:00"
+    created: "2022-06-30T17:22:03.400494+02:00"
     description: A Helm chart for deploying Red Hat Advanced Cluster Management
-    digest: 070cedc237ce7ec129ef3869cbfe75148685e421364006ffe31dcec2ba42505c
+    digest: baaf16aece716883f5e8031ddf7f3e938052957c0c54f76a859e8ce573500880
     name: rhacm-hub-instance
     type: application
     urls:
@@ -738,9 +748,9 @@ entries:
   rhacm-hub-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.280462+02:00"
+    created: "2022-06-30T17:22:03.402032+02:00"
     description: A Helm chart for deploying Red Hat Advanced Cluster Management
-    digest: 4c3669e21b722cd50db524d6fe0ac0cba8102cb24a48de629fd6d6a51a21811f
+    digest: dfb2ff7233cb5cc9c9d5b25537487362ba3e7859e2d1351aa8ef99c2d2fd8057
     name: rhacm-hub-operator
     type: application
     urls:
@@ -748,7 +758,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-06-30T17:07:24.280272+02:00"
+    created: "2022-06-30T17:22:03.401559+02:00"
     description: A Helm chart for deploying Red Hat Advanced Cluster Management
     digest: bdd69bb21a06ac46f5c1e21165f24eeee23453875035390345a25062739ea86f
     name: rhacm-hub-operator
@@ -759,13 +769,13 @@ entries:
   router-default-pro:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2022-06-30T17:07:24.28064+02:00"
+    created: "2022-06-30T17:22:03.402217+02:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 51021c5ed40f4598a3f17aa0564f759614a2bc2442e269485f478c6ba80ed921
+    digest: bbde70b5a6621457095e264279c2ce23114f0178d21e31e58c156b6565771945
     name: router-default-pro
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/router-default-pro-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-30T17:07:24.231642+02:00"
+generated: "2022-06-30T17:22:03.345315+02:00"

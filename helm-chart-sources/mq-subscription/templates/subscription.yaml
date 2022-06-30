@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.mq_instance_dr.name }}
   namespace: {{ .Values.mq_instance_dr.namespace }}
   annotations:
-    apps.open-cluster-management.io/git-branch: {{ .Values.mq_instance_dr.it_branch }}
+    apps.open-cluster-management.io/git-branch: {{ .Values.mq_instance_dr.git_branch }}
     apps.open-cluster-management.io/git-path: {{ .Values.mq_instance_dr.git_folder }}
   labels:
     app: {{ .Values.mq_instance_dr.name }}
