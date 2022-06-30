@@ -1,6 +1,6 @@
 apiVersion: v2
-name: mq-instance
-description: A Helm chart for deploying mq-instance
+name: mq-dr-instance
+description: A Helm chart for deploying mq-instance with ODF DR
 type: application
 version: 0.1.16
 appVersion: 0.1.16
