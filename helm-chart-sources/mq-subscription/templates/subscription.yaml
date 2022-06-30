@@ -16,5 +16,5 @@ spec:
     placementRef:
       name: {{ .Values.mq_instance_dr.name }}-placement
       kind: PlacementRule
-  posthooks: {}
-  prehooks: {}
+posthooks: {}
+prehooks: {}
