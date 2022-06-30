@@ -3,4 +3,4 @@ name: mq-instance-dr
 description: A Helm chart for deploying mq-instance
 type: application
 version: 0.1.8
-appVersion: 0.1.0
+appVersion: 0.1.8
