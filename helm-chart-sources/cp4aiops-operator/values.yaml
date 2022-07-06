@@ -1,0 +1,7 @@
+subscriptions:
+  subscription:
+    channel: v3.3
+    installPlanApproval: Automatic
+    name: ibm-aiops-orchestrator
+    source: ibm-aiops-catalog
+    sourceNamespace: openshift-marketplace
