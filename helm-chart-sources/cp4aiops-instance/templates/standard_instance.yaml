@@ -1,7 +1,7 @@
 apiVersion: orchestrator.aiops.ibm.com/v1alpha1
 kind: Installation
 metadata:
-  name: {{ .Values.aiops_instance.name }} 
+  name: {{ .Values.aiops_instance.name_infra }} 
   namespace: {{ .Values.aiops_instance.namespace }} 
 spec:
   imagePullSecret: ibm-entitlement-key

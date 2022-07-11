@@ -14,12 +14,12 @@ spec:
   pvcSelector:
     matchLabels:
       app.kubernetes.io/instance: {{ .Values.mq_instance_dr.matchLabel }}  
-  {{- if (eq $.Values.mq_instance_dr.action "Failover")  -}}
+{{ if eq .Values.mq_instance_dr.action "Failover"  }}
   action: {{ .Values.mq_instance_dr.action }}
   failoverCluster: {{ .Values.mq_instance_dr.failoverCluster }}
-  {{- end -}}
-  
-  {{- if and (eq $.Values.mq_instance_dr.action "Relocate")  -}}
+{{ end }}
+
+  {{ if eq $.Values.mq_instance_dr.action "Relocate"  }}
   action: {{ .Values.mq_instance_dr.action }}
-  {{- end -}}
+  {{ end }}
   
