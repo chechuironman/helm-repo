@@ -7,6 +7,6 @@ spec:
   channel: v2.0
   installPlanApproval: Automatic
   name: isf-operator
-  source: isf-catalog
+  source: ibm-operator-catalog
   sourceNamespace: openshift-marketplace
-  startingCSV: isf-operator.v2.2.0
+  startingCSV: isf-operator.v2.2.1
