@@ -1,0 +1,48 @@
+apiVersion: mq.ibm.com/v1beta1
+kind: QueueManager
+metadata:
+  name: externalmqwithoutcustomroute
+  namespace: cloudpak
+spec:
+  version: 9.2.0.1-r1-eus
+  license:
+    accept: true
+    license: L-RJON-BUVMQX
+    use: "NonProduction"
+  pki:
+    keys:
+    - name: default
+      secret:
+        secretName: externalmqwithoutcustomroutecert
+        items:
+          - tls.key
+          - tls.crt
+  web:
+    enabled: true
+  queueManager:
+    resources:
+      limits:
+        cpu: 250m
+      requests:
+        cpu: 100m
+    mqsc:
+      - configMap:
+          name: externalmqwithoutcustomroutemqsc
+          items:
+            - mqexternal.mqsc
+    storage:
+      defaultClass: ocs-storagecluster-ceph-rbdmirror
+      persistedData:
+        enabled: true
+      queueManager:
+        size: 2Gi
+        type: persistent-claim
+      recoveryLogs:
+        enabled: true    
+  template:
+    pod:
+      containers:
+        - env:
+            - name: MQSNOAUT
+              value: 'yes'
+          name: qmgr
