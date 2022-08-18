@@ -14,4 +14,4 @@ spec:
   license:
     accept: true
   storageClass: {{ .Values.aiops_instance.storage_class }} 
-{{- end -}}
+{{ end }}
