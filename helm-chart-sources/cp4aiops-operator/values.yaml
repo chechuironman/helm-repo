@@ -5,6 +5,6 @@ subscriptions:
       resources: {}
     installPlanApproval: Automatic
     name: ibm-aiops-orchestrator
-    source: ibm-aiops-catalog
+    source: ibm-operator-catalog
     sourceNamespace: openshift-marketplace
 
