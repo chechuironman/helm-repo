@@ -1,4 +1,4 @@
-{{- if  (eq $.Values.aiops_instance.infra "true") -}}
+{{ if eq .Values.aiops_instance.infra "True"  }}
 apiVersion: aiops.ibm.com/v1alpha1
 kind: IAConfig
 metadata:
