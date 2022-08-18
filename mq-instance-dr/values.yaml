@@ -1,0 +1,20 @@
+# Default values for refarch-ocp4-gitops.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+mq_instance_dr:
+  name:
+  namespace:
+  preferredCluster: 
+  matchLabel: 
+  failoverCluster:
+  action:
+  preferredCluster:
+  git_branch:
+  git_path:
+  git_folder:
+  odr_policy:
+
+
+
+

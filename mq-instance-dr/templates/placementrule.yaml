@@ -1,0 +1,13 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: {{ .Values.mq_instance_dr.name }}-placement
+  namespace: {{ .Values.mq_instance_dr.namespace }}
+  labels:
+    app: {{ .Values.mq_instance_dr.name }}
+spec:
+  clusterConditions:
+    - status: 'True'
+      type: ManagedClusterConditionAvailable
+  clusterReplicas: 1
+  schedulerName: ramen

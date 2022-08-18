@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: {{ .Values.mq_instance_dr.name }}
+  namespace: {{ .Values.mq_instance_dr.namespace }}
+spec:
+  pathname: https://{{ .Values.mq_instance_dr.git_path }}
+  type: Git
