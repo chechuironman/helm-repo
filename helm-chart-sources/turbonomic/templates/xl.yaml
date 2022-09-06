@@ -1,0 +1,79 @@
+apiVersion: charts.helm.k8s.io/v1
+kind: Xl
+metadata:
+  name: {{ .Values.name }}
+  namespace: turbonomic
+spec:
+  servicenow:
+    enabled: true
+  jvm:
+    enabled: true
+  actionscript:
+    enabled: true
+  mysql:
+    enabled: true
+  snow:
+    enabled: false
+  global:
+    customImageNames: false
+    logtostdout: true
+    repository: registry.connect.redhat.com/turbonomic
+    storageClassName: {{ .Values.storage_class }}
+    tag: {{ .Values.version }}
+    securityContext:
+      fsGroup: {{ .Values.fs_group }}
+  grafana:
+    adminPassword: {{ .Values.grafana_admin_password }}
+    enabled: true
+    grafana.ini:
+      database:
+        password: {{ .Values.postgresql_password }}
+        type: postgres
+    securityContext:
+      runAsUser: {{ .Values.fs_group }}
+      fsGroup: {{ .Values.fs_group }}
+  extractor:
+    enabled: true
+  udt:
+    enabled: true
+  prometheus:
+    enabled: false
+  vcenter:
+    enabled: true
+  instana:
+    enabled: true
+  reporting:
+    enabled: true
+  azure:
+    enabled: true
+  istio:
+    enabled: true
+  kubeturbo:
+    enabled: true
+  properties:
+    extractor:
+      grafanaAdminPassword: {{ .Values.grafana_admin_password }}
+  gcp:
+    enabled: true
+  prometurbo:
+    enabled: true
+  nginxingress:
+    enabled: false
+  timescaledb:
+    enabled: true
+  aws:
+    enabled: true
+  openshiftingress:
+    enabled: true
+  nginx:
+    httpsRedirect: false
+    nginxIsPrimaryIngress: false
+  nginxingress:
+    enabled: true
+  postgresql:
+    securityContext:
+      runAsUser: {{ .Values.fs_group }}
+    volumePermissions:
+      enabled: true
+      securityContext:
+        runAsUser: {{ .Values.fs_group }}
