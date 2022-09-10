@@ -1,0 +1,14 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  labels:
+    operators.coreos.com/external-secrets-operator.external-secrets: ""
+  name: external-secrets-operator
+  namespace: {{ .Values.namespace }}
+spec:
+  channel: stable
+  installPlanApproval: Automatic
+  name: external-secrets-operator
+  source: community-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: external-secrets-operator.v{{ .Values.version }}
