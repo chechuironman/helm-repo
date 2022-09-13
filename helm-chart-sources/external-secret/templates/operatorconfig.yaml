@@ -2,10 +2,9 @@ apiVersion: operator.external-secrets.io/v1alpha1
 kind: OperatorConfig
 metadata:
   annotations:
-    argocd.argoproj.io/sync-wave: "20"
-    helm.sh/hook-weight: "20"
+    argocd.argoproj.io/sync-wave: "200"
+    helm.sh/hook-weight: "200"
   name: cluster
-  namespace: {{ .Values.namespace }}
 spec:
   prometheus:
     enabled: true
