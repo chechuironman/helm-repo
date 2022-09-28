@@ -1,6 +1,9 @@
 apiVersion: charts.helm.k8s.io/v1
 kind: Xl
 metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "300"
+    helm.sh/hook-weight: "300"
   name: {{ .Values.name }}
   namespace: turbonomic
 spec:
