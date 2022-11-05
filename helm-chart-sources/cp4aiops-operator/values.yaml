@@ -16,6 +16,15 @@ infra:
     name: ibm-infrastructure-automation-operator
     source: ibm-operator-catalog
     sourceNamespace: openshift-marketplace
+event:
+  namespace:
+  subscription:
+    channel: v1.10
+    installPlanApproval: Automatic
+    name: noi
+    source: ibm-operator-catalog
+    sourceNamespace: openshift-marketplace
+
 
 
 
