@@ -16,12 +16,6 @@ infra:
     name: ibm-infrastructure-automation-operator
     source: ibm-operator-catalog
     sourceNamespace: openshift-marketplace
-  installation:
-    name:
-    size: 
-    sc:
-    sc_lb:
-    ibm_pull_secret:
 
 
 
