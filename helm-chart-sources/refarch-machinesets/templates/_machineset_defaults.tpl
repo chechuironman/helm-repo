@@ -231,3 +231,4 @@ MachineSet AWS Check Image
 {{- $virtualNetwork := printf "%s-vnet" $.Values.infrastructureId -}}
 {{ default $virtualNetwork $.Values.cloud.virtualNetwork }}
 {{- end -}}
+

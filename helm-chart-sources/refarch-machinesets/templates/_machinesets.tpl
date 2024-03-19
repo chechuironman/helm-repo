@@ -207,7 +207,7 @@ providerSpec:
     numCPUs: {{ include "machineset.vsphere.defaultNodeCPU" . }}
     numCoresPerSocket: {{ include "machineset.vsphere.NodeCoresPerSocket" .}}
     snapshot: ""
-    template: {{ $.Values.infrastructureId }}-rhcos-generated-region-generated-zone
+    template: {{ $.Values.infrastructureId }}-rhcos-generated-region-generated-zone 
     userDataSecret:
       name: worker-user-data
     workspace:

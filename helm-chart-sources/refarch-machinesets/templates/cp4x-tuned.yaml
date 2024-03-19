@@ -30,3 +30,4 @@ spec:
     priority: 10
     profile: cp4x-tuned
 {{- end -}}
+
