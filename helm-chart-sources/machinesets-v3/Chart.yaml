@@ -1,5 +1,5 @@
 apiVersion: v2
-name: machinesets-v3
+name: refarch-machinesets
 description: A Helm chart for deploying infrastrucure reference architecture to OpenShift 4.x clusters
 
 # A chart can be either an 'application' or a 'library' chart.
