@@ -3,9 +3,9 @@ entries:
   cnsa:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2023-02-16T21:49:36.278521+01:00"
+    created: "2024-03-19T11:09:29.214586+01:00"
     description: A Helm chart for deploying cnsa for Spectrum Scale
-    digest: 864f9c2e0df0fa2cffbb404617feda2aeb87b0a4570c093046da581fa69bb94d
+    digest: cc0da364bb84382d4cb28af08344f84fa899d5a9d3c23ea42b1b22f93d1b6ee3
     name: cnsa
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   console-notification:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.278642+01:00"
+    created: "2024-03-19T11:09:29.214699+01:00"
     description: A Helm chart for deploying console-link
-    digest: 1eff4661e8d56a7d4e3fbcd17e5f680596b8ad6858aa2c5a69df346324087f95
+    digest: 726dd75a5b9b12a2fc3342e0b96c25ea64a2016e08e269a6d0e111698e66ef40
     name: console-notification
     type: application
     urls:
@@ -25,92 +25,21 @@ entries:
   cp4aiops-instance:
   - apiVersion: v2
     appVersion: 0.2.3
-    created: "2023-02-16T21:49:36.280727+01:00"
+    created: "2024-03-19T11:09:29.214814+01:00"
     description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 4d29154db5899bd9c8583b3830074858f283745b81e2eaccd0308f753652208c
+    digest: 38011dfb0d581b31be6dfd2ec4199454a4813291bee6e201d579635536b2dd6f
     name: cp4aiops-instance
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.2.3.tgz
     version: 0.2.3
-  - apiVersion: v2
-    appVersion: 0.2.2
-    created: "2023-02-16T21:49:36.279977+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: c02c449a5295fc7512028484e9b539381f7268270ee7c2eeaa44f8f809ed2bd6
-    name: cp4aiops-instance
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.2.2.tgz
-    version: 0.2.2
-  - apiVersion: v2
-    appVersion: 0.2.1
-    created: "2023-02-16T21:49:36.279788+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: f26998ae7669e44ee6892e63fa20268962f13115db7d7841cebae1eece2e7dc3
-    name: cp4aiops-instance
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.2.1.tgz
-    version: 0.2.1
-  - apiVersion: v2
-    appVersion: 0.2.0
-    created: "2023-02-16T21:49:36.279654+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 5492da8b54e19121e1431773c81d14281a4dd6c78b8c9ccc6496a50b788bebe5
-    name: cp4aiops-instance
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 0.1.3
-    created: "2023-02-16T21:49:36.279372+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 8460c47f9cfa5f4510f552dfeaf07b3297ba64a3b1a897500f895f569d40cc2e
-    name: cp4aiops-instance
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.279239+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 09c31d01d71a6bf44fca432ca75090e2633795a0176629379d0cc17d490621b6
-    name: cp4aiops-instance
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.27899+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: a1a4232707c727783f7bd27db5f555a4a6e97784a815d0a618f705bdffddb115
-    name: cp4aiops-instance
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-instance-0.1.0.tgz
-    version: 0.1.0
-  cp4aiops-operator:
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.280887+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: a248de367a5f53b621dc6358bef6038cc0cea739433678be0a5b9384f2e6ca4e
-    name: cp4aiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/cp4aiops-operator-0.1.0.tgz
-    version: 0.1.0
   cp4data-instance:
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2023-02-16T21:49:36.280997+01:00"
+    created: "2024-03-19T11:09:29.214928+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 9b2048f518403a91ef0a072206569f723f5527cf9137fc5efdf049060867b51d
+    digest: 8d130fc43eea9593874173d27ee5daf325bb6a5848e5994d734601ed9841a8e5
     name: cp4data-instance
     type: application
     urls:
@@ -119,93 +48,32 @@ entries:
   cp4data-operator:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-02-16T21:49:36.281111+01:00"
+    created: "2024-03-19T11:09:29.215057+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 24a0aa06585d3791696bcc3be2da3524e272d27a1836db7939a28c4f8a55fe27
+    digest: 7f2e675b8f7b55f9ac4e2667b5408760bf5f98756c6ea42b6ea6dc1694238bc9
     name: cp4data-operator
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/cp4data-operator-0.1.2.tgz
     version: 0.1.2
-  external-secret:
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.281425+01:00"
-    description: A Helm chart for deploying external-secret operator
-    digest: 7846a2146dd0b54768be36fde6e89b415dd1f39ac44a97bec19b5b646d13ddb4
-    name: external-secret
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/external-secret-0.1.0.tgz
-    version: 0.1.0
   external-secret-operator:
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2023-02-16T21:49:36.282436+01:00"
+    created: "2024-03-19T11:09:29.215157+01:00"
     description: A Helm chart for deploying external-secret operator
-    digest: cb515977f88e3f9ad78aad9270e31fc3bd97bc53d9b5200d7e1bdda41fa79fac
+    digest: 8692ff1736243426c967331b10977dda0f4ab15a8f22970595b4b8d5010635c0
     name: external-secret-operator
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/external-secret-operator-0.4.0.tgz
     version: 0.4.0
-  - apiVersion: v2
-    appVersion: 0.3.0
-    created: "2023-02-16T21:49:36.282248+01:00"
-    description: A Helm chart for deploying external-secret operator
-    digest: ab5a7d3af183a89b607c9632e8aa16c923941ce8fe9e779335f4c4c1b8d81210
-    name: external-secret-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/external-secret-operator-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: 0.2.0
-    created: "2023-02-16T21:49:36.282115+01:00"
-    description: A Helm chart for deploying external-secret operator
-    digest: 3420ed06764b558386870651f46eefbd5f9f759f8b818eb189105b2728718469
-    name: external-secret-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/external-secret-operator-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 0.1.2
-    created: "2023-02-16T21:49:36.281977+01:00"
-    description: A Helm chart for deploying external-secret operator
-    digest: 7603891dd3e0e69c00871746dd91ff2ee82ab40e3f2cb45dfa3b617750eeb170
-    name: external-secret-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/external-secret-operator-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.281801+01:00"
-    description: A Helm chart for deploying external-secret operator
-    digest: 709d328d9aa82972cc713799497ed24e1c5c02dd57ce4d6908a62bea82a04f37
-    name: external-secret-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/external-secret-operator-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.281601+01:00"
-    description: A Helm chart for deploying external-secret operator
-    digest: 39299dca4afcaeecee43833315f0b18a49afd82b5bb552b9f4a6cc3711590e20
-    name: external-secret-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/external-secret-operator-0.1.0.tgz
-    version: 0.1.0
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-16T21:49:36.282661+01:00"
+    created: "2024-03-19T11:09:29.215382+01:00"
     description: A Helm chart for Kubernetes
-    digest: 0ecf07e0d5a287541672753273c98850654ec43b2e0244b2cd562d4a4157486e
+    digest: b03f108ff3e0230c6b9c0674b41294b81b01f419e2c722c958a15dcbf65b42d1
     name: helm-chart-test
     type: application
     urls:
@@ -214,151 +82,31 @@ entries:
   ibm-cp4waiops-operator:
   - apiVersion: v2
     appVersion: 0.2.6
-    created: "2023-02-16T21:49:36.285042+01:00"
+    created: "2024-03-19T11:09:29.215522+01:00"
     description: A Helm chart for deploying CloudPak for AIops operator
-    digest: a193ed099f539ebbd16d6f15234c3f28fd08d7a667d0f8364d5623859ae2f57d
+    digest: d5cdf9de8015789a75350d8e7a5779278ebb99a9134ccb4e4ff1151479f2a70e
     name: ibm-cp4waiops-operator
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.6.tgz
     version: 0.2.6
-  - apiVersion: v2
-    appVersion: 0.2.5
-    created: "2023-02-16T21:49:36.284916+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: d7d18f0fd225607471cb2a808b205e9ceb3fe3e23887385e01486af5be5b8ea7
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.5.tgz
-    version: 0.2.5
-  - apiVersion: v2
-    appVersion: 0.2.4
-    created: "2023-02-16T21:49:36.284674+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: e80e056cfed812fb925b5c2b5a69c3df7014b9b1f4d28abae7f7640ca5a927aa
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.4.tgz
-    version: 0.2.4
-  - apiVersion: v2
-    appVersion: 0.2.3
-    created: "2023-02-16T21:49:36.284423+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 7420b594ae61408f9a5c7aa53a7c85c23f51cce4799600721dac7d0370926086
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.3.tgz
-    version: 0.2.3
-  - apiVersion: v2
-    appVersion: 0.2.2
-    created: "2023-02-16T21:49:36.284163+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: ab7ab0b711b52be2d6f59d89a82ed7905e4c72911a533156a4375bd736f9b43f
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.2.tgz
-    version: 0.2.2
-  - apiVersion: v2
-    appVersion: 0.2.1
-    created: "2023-02-16T21:49:36.28392+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 539698a8e45437137de9136869f897e36b59f401dd0abd50dd467a52db3df6e7
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.1.tgz
-    version: 0.2.1
-  - apiVersion: v2
-    appVersion: 0.2.0
-    created: "2023-02-16T21:49:36.28365+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 8574ce93e42bebeabcf57825d2c5fd5c958048b6ee0ac233439d0afb2d88e3e2
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 0.1.3
-    created: "2023-02-16T21:49:36.283354+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 484a9d85fcffea425d821b93ad11de35c2e3db3d1e91718b1e9de211e08532ce
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.1.3.tgz
-    version: 0.1.3
-  - apiVersion: v2
-    appVersion: 0.1.2
-    created: "2023-02-16T21:49:36.283186+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 2ed713c5a98abdf9581ac165912606bbe25a32e1d2d7c7ecdba3c03d487e8c74
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.1.2.tgz
-    version: 0.1.2
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.282958+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 5b72636a61e9119dbd30da42d3e1fa1ef3d703ca23490c7561710de0d7bd1b8e
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.282815+01:00"
-    description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 7425351a88d02c51547f8604bc1ee8fbebd79ec33cdc98beb96f0c0af1030fe0
-    name: ibm-cp4waiops-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-cp4waiops-operator-0.1.0.tgz
-    version: 0.1.0
   ibm-fusion:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.285668+01:00"
+    created: "2024-03-19T11:09:29.215616+01:00"
     description: A Helm chart for deploying ibm fusion
-    digest: 7c25a800470dfa399b363cb29a638a5a08e58b20c7f939dec6aa7ec41da654ce
+    digest: 2e8bcb01ddc28cda8540e0358b1b32521deedc7e2ad53150993ab0de7eaebd2a
     name: ibm-fusion
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/ibm-fusion-0.2.5.tgz
     version: 0.2.5
-  - apiVersion: v2
-    appVersion: 0.2.4
-    created: "2023-02-16T21:49:36.285557+01:00"
-    description: A Helm chart for deploying ibm fusion
-    digest: 315af074c698a11ba27dcbc660eb1e285823730c54362189b80fbf2dd166b727
-    name: ibm-fusion
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-fusion-0.2.4.tgz
-    version: 0.2.4
-  - apiVersion: v2
-    appVersion: 0.2.3
-    created: "2023-02-16T21:49:36.285306+01:00"
-    description: A Helm chart for deploying ibm fusion
-    digest: 14f85c76d270e3e61780374d2b88b3cfb8b6841e1e363ac86798f1b398072acf
-    name: ibm-fusion
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/ibm-fusion-0.2.3.tgz
-    version: 0.2.3
   ibm-fusion-instance:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2023-02-16T21:49:36.285754+01:00"
+    created: "2024-03-19T11:09:29.215718+01:00"
     description: A Helm chart for deploying ibm fusion
-    digest: 273f4a70d6a333fb315a8e30ef6a80676b0a3e47b559078bc7fbdea0bd19e2d2
+    digest: b119e405ab6f73357de5e48048866e534b9fdb0317ad5bf3f1e22e229cfe289b
     name: ibm-fusion-instance
     type: application
     urls:
@@ -367,9 +115,9 @@ entries:
   ibm-fusion-spectrum-remote:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.285866+01:00"
+    created: "2024-03-19T11:09:29.215827+01:00"
     description: A Helm chart for deploying ibm fusion
-    digest: 1ce060f84ab4de32b34c593f04475536915c16b45f39cd7792f916e1e96b5991
+    digest: abc7514a29ed4cebf58bebcc2b7bd9497503695fe5e7adf826f017f3b70cd278
     name: ibm-fusion-spectrum-remote
     type: application
     urls:
@@ -378,9 +126,9 @@ entries:
   instana:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.285967+01:00"
+    created: "2024-03-19T11:09:29.215919+01:00"
     description: A Helm chart for deploying CloudPak for AIops operator
-    digest: 64cfe103415afaabef3c478f1b4eaffbca91e8cc8018f3dd0b342abaff47bd85
+    digest: db1a7734a022e7579739f2da08853c199530015055dd9f0b794a4742cad3a727
     name: instana
     type: application
     urls:
@@ -389,9 +137,9 @@ entries:
   logdna:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.286113+01:00"
+    created: "2024-03-19T11:09:29.216071+01:00"
     description: A Helm chart for deploying Turbonomics
-    digest: d2a8e1119f16ec2ed302891f63953c27ccc68c2701b7bfd887b2d79a76bf4633
+    digest: bae436530104a13486b07d94cd7c28cf91fcc116a498b705797a848f5b4d12ae
     name: logdna
     type: application
     urls:
@@ -400,10 +148,10 @@ entries:
   machinesets:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.286408+01:00"
+    created: "2024-03-19T11:09:29.217181+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 9fe1330cfaa00a59354a25e27e47e5d0ba517e38ff1e219b099ab09e13de81d6
+    digest: f57d86f0e328d666c793ce8ffb945141f122cc24f7cfd3f0d4c49e792263ffc9
     name: machinesets
     type: application
     urls:
@@ -412,21 +160,33 @@ entries:
   machinesets-v2:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.287017+01:00"
+    created: "2024-03-19T11:09:29.217467+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 5bf1a4df7907a49024173adb1b43b8875eb9eb995c5820c00c2c1688cc120371
+    digest: a851d195e8c96a9da7a32dd4a929b2285189fb423c10b2b90c10f3465d944d10
     name: machinesets-v2
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/machinesets-v2-0.6.0.tgz
     version: 0.6.0
+  machinesets-v3:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-03-19T11:09:29.217772+01:00"
+    description: A Helm chart for deploying infrastrucure reference architecture to
+      OpenShift 4.x clusters
+    digest: 72989d7aeafc7907225642c865090ff35a31d9581fb8e1dc82284b5ee590cb0e
+    name: machinesets-v3
+    type: application
+    urls:
+    - https://chechuironman.github.io/helm-repo/machinesets-v3-0.4.9.tgz
+    version: 0.4.9
   mq-dr-instance:
   - apiVersion: v2
     appVersion: 0.1.16
-    created: "2023-02-16T21:49:36.287251+01:00"
+    created: "2024-03-19T11:09:29.217892+01:00"
     description: A Helm chart for deploying mq-instance with ODF DR
-    digest: 34c143af7ff44168b32ecb47af4cb098b689e8985e862d321c71bb07e30a78a8
+    digest: 14aaef9605621fb0aa8babb87cfb77cc6cf835825d004c544b572c2fa7c02355
     name: mq-dr-instance
     type: application
     urls:
@@ -435,133 +195,32 @@ entries:
   mq-instance-dr:
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2023-02-16T21:49:36.287384+01:00"
+    created: "2024-03-19T11:09:29.218028+01:00"
     description: A Helm chart for deploying mq-instance
-    digest: d2666e7170989604122fb5d829c4793e0598dd52b8424ac1ef6d1c2ca2f6fa3f
+    digest: 9eb30503ed66eca5c0aa96c1fc2ff8cb58b7c4a7d0507aa6cb093583ed674dba
     name: mq-instance-dr
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.10.tgz
     version: 0.1.10
-  - apiVersion: v2
-    appVersion: 0.1.9
-    created: "2023-02-16T21:49:36.288321+01:00"
-    description: A Helm chart for deploying mq-instance
-    digest: 4e6b6dec1aea0dbb0579da556cc32908ef90f4864e222a9a0e50bb134cc978dd
-    name: mq-instance-dr
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.9.tgz
-    version: 0.1.9
-  - apiVersion: v2
-    appVersion: 0.1.8
-    created: "2023-02-16T21:49:36.28818+01:00"
-    description: A Helm chart for deploying mq-instance
-    digest: 91fb07194f45ee28e14f1a7c38f361ec8cfed8f327782297bc393d74de7cfba9
-    name: mq-instance-dr
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.8.tgz
-    version: 0.1.8
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.28802+01:00"
-    description: A Helm chart for deploying mq-instance
-    digest: e550f1e8502c937b3d64be9936377d4b61aa749ef2b19e6910c963c810f3ccde
-    name: mq-instance-dr
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.7.tgz
-    version: 0.1.7
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.287864+01:00"
-    description: A Helm chart for deploying mq-instance
-    digest: bee7d6bf80039b93a268a2d75470a952bcac522bfc37d5f559b562bed5f9b25f
-    name: mq-instance-dr
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.6.tgz
-    version: 0.1.6
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.287715+01:00"
-    description: A Helm chart for deploying mq-instance
-    digest: bbb927efc857a50b6447b0decd0509898053a27dc30e30ebf48b65f044b02b54
-    name: mq-instance-dr
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.5.tgz
-    version: 0.1.5
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.287552+01:00"
-    description: A Helm chart for deploying mq-instance
-    digest: 76461d3571e82c3376b75993213860ac3eea9149ec6c47c2ea5fbd0f5d23a83d
-    name: mq-instance-dr
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/mq-instance-dr-0.1.4.tgz
-    version: 0.1.4
-  nmstate:
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.288524+01:00"
-    description: A Helm chart for deploying nmstate operator
-    digest: 0dba04bec5f3492043c7994e6d639789143b63a925bfd6c6228cb4b2a3db704b
-    name: nmstate
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/nmstate-0.1.0.tgz
-    version: 0.1.0
   nmstate-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.289119+01:00"
+    created: "2024-03-19T11:09:29.218112+01:00"
     description: A Helm chart for deploying nmstate operator
-    digest: ad05374da69358d2a88c459803c85811b0847b931780322980cc041c54c1bb17
+    digest: 93c092ab4bb98a3042d0662e37051cc389795dc151da4653a2763631837b5c11
     name: nmstate-operator
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/nmstate-operator-0.4.0.tgz
     version: 0.4.0
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.289035+01:00"
-    description: A Helm chart for deploying nmstate operator
-    digest: 56d253369d9b30fe230efa845fc980eb8ba4870c03e2b65ee276f235bb667a2e
-    name: nmstate-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/nmstate-operator-0.3.0.tgz
-    version: 0.3.0
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.288953+01:00"
-    description: A Helm chart for deploying nmstate operator
-    digest: 15cb336df8ce646341a6a9f8fd38657574033a90bb23dbc5503c9fc4c4bc3c27
-    name: nmstate-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/nmstate-operator-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.288731+01:00"
-    description: A Helm chart for deploying nmstate operator
-    digest: ff99023e4dd0d2d3ed20741a20853cc09669765f5afcbaa728e04ce60304f150
-    name: nmstate-operator
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/nmstate-operator-0.1.0.tgz
-    version: 0.1.0
   oadp-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.289238+01:00"
+    created: "2024-03-19T11:09:29.218213+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 39674687139a455b5aeb8c18bb5a34f8c057733a64442910c32ec867a5c1e574
+    digest: 049b837724fd63263ed56a7395b62c53b7fbdc21758af44072f61757e3d9a828
     name: oadp-operator
     type: application
     urls:
@@ -570,10 +229,10 @@ entries:
   odf-operator:
   - apiVersion: v2
     appVersion: 0.3.12
-    created: "2023-02-16T21:49:36.28956+01:00"
+    created: "2024-03-19T11:09:29.218564+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: fe014cfb7a792a41275bd55fcd036624c05204962304b07bc1417087e214af1d
+    digest: 07fc822ca5ea4851dfcf81981d44a53ce2b9e2182f5e92b1413c8dab319838d6
     name: odf-operator
     type: application
     urls:
@@ -581,10 +240,10 @@ entries:
     version: 0.3.12
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.28943+01:00"
+    created: "2024-03-19T11:09:29.218414+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 0bca3e47d417ade1fc384f3eea7813954e68bfd8bee4aea7a37371bae5587dad
+    digest: 6f887ab5f6dbdc7d895394d5290be704bc2c1ac84f319d887d4400e9727b9893
     name: odf-operator
     type: application
     urls:
@@ -593,9 +252,9 @@ entries:
   rhacm-hub-instance:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.28964+01:00"
+    created: "2024-03-19T11:09:29.21866+01:00"
     description: A Helm chart for deploying Red Hat Advanced Cluster Management
-    digest: a56be4ce9e9c77111eaed18ebd63c04b96628bb2b83dd0a33c8e0a7a1cc31424
+    digest: 3e6c44a3ea0aeee5ef277023c9ace79c4c6088f7898225aabe2fef62d7ad7528
     name: rhacm-hub-instance
     type: application
     urls:
@@ -604,9 +263,9 @@ entries:
   rhacm-hub-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.289724+01:00"
+    created: "2024-03-19T11:09:29.218832+01:00"
     description: A Helm chart for deploying Red Hat Advanced Cluster Management
-    digest: 412c4d08064553aab029fa28d0ab48a77324328b32572ae6807662d2a35a55a5
+    digest: 035adb1bd21f6fe5070982fe40641f0e5b2603c49776238f8b89dc98f7a71752
     name: rhacm-hub-operator
     type: application
     urls:
@@ -615,10 +274,10 @@ entries:
   router-default-pro:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.289803+01:00"
+    created: "2024-03-19T11:09:29.218923+01:00"
     description: A Helm chart for deploying infrastrucure reference architecture to
       OpenShift 4.x clusters
-    digest: 6c3f412f368b8086d0d163a7b252839b3a56bfec5d8d56b33b468501727ded60
+    digest: 2fff3c75f4f5848f8920986daf18521e3a9ed9bee49e919275e7ca61990241de
     name: router-default-pro
     type: application
     urls:
@@ -627,32 +286,12 @@ entries:
   turbonomic:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-02-16T21:49:36.29034+01:00"
+    created: "2024-03-19T11:09:29.219076+01:00"
     description: A Helm chart for deploying Turbonomics
-    digest: 8a6b8cd3f96129310b473fa1c5a98fb96b62a5fc0dfff52bc9c82a01d0408c11
+    digest: b547b44f753a2c37c748cd24ffb1d04f335a404a3ef032d17b470d69723bc17f
     name: turbonomic
     type: application
     urls:
     - https://chechuironman.github.io/helm-repo/turbonomic-0.2.0.tgz
     version: 0.2.0
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2023-02-16T21:49:36.290198+01:00"
-    description: A Helm chart for deploying Turbonomics
-    digest: 32341eb7110721d4590842398fe0ab52a0e0b40cc1ee34a3a5f677dd62881a46
-    name: turbonomic
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/turbonomic-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-02-16T21:49:36.289944+01:00"
-    description: A Helm chart for deploying Turbonomics
-    digest: af8d74fccba8441e1e97f3544fe0a19ed6583da45ed11a62b72bce6988dd5669
-    name: turbonomic
-    type: application
-    urls:
-    - https://chechuironman.github.io/helm-repo/turbonomic-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-02-16T21:49:36.277891+01:00"
+generated: "2024-03-19T11:09:29.213927+01:00"
