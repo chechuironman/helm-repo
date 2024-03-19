@@ -1,8 +1,0 @@
-aiops_instance:
-  name_instance: ibm-cp-watson-aiops
-  name_infra: ibm-cp-watson-aiops-iinfra
-  namespace: aiops
-  size: small
-  storage_class: ocs-storagecluster-cephfs
-  storage_class_large: ocs-storagecluster-ceph-rbd
-  infra: "False"
